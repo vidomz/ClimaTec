@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en" class="pagina-historico pagina-tiempo-real">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ClimaTec</title>
+  <link rel="icon" href="data:,">
+  <meta name="description" content="Live weather and air quality records of stations I, III and XII projected on the digital twin of Distrito Tec with the reduced-order model.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/visor.css?v=20261111a">
+  <link rel="stylesheet" href="css/historico.css?v=20261028b">
+  <link rel="stylesheet" href="css/about.css?v=20261028a">
+  <link rel="stylesheet" href="css/tiempo_real.css?v=20261111a">
+</head>
+
+<body data-rom="tiempo-real">
+  <header class="encabezado">
+    <a class="logo logo-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+    <nav class="pestanas" aria-label="Secciones">
+      <a class="pestana" href="ClimaTec_index.html">Tec de Monterrey</a>
+      <a class="pestana" href="ClimaTec_about.html">About</a>
+      <a class="pestana" href="ClimaTec_historical.html">Historical</a>
+      <a class="pestana" href="ClimaTec_realtime.html" aria-current="page">Real-Time</a>
+      <a class="pestana" href="ClimaTec_prediction.html">Prediction</a>
+    </nav>
+    <a class="logo logo-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png"
+         alt="Tecnológico de Monterrey · Escuela de Ingeniería y Ciencias"></a>
+  </header>
+
+  <section class="rom tr-gemelo" aria-label="Live digital twin of Distrito Tec">
+    <iframe id="rom-gemelo" src="gemelo.html?v=20261031e&amp;rom=1&amp;herramientas=izquierda&amp;semantica=tiempo-real&amp;actores=1&amp;sol=1" title="Live conditions on the digital twin of Distrito Tec"></iframe>
+    <p class="rom-cargando" id="rom-cargando">Loading…</p>
+
+    <div class="tr-barra" role="region" aria-label="Incoming station records">
+      <span class="tr-live">LIVE</span>
+      <span class="tr-fuente">API module</span>
+      <div class="filtros" id="tr-estaciones" role="radiogroup" aria-label="Station"></div>
+      <span class="tr-sep" aria-hidden="true"></span>
+      <div class="tr-valores" id="tr-valores" aria-live="polite"></div>
+    </div>
+
+    <button type="button" class="tr-pestana" id="tr-pestana" aria-controls="tr-panel" aria-expanded="true" title="Hide panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+    <aside class="tarjeta rom-panel tr-panel" id="tr-panel" aria-label="Risk levels on the twin">
+      <p class="tr-panel-titulo">Live Projection</p>
+      <p class="tr-panel-sub" id="tr-panel-sub">Waiting for the latest records…</p>
+      <select id="rom-hora" hidden aria-hidden="true"></select>
+
+      <p class="rom-etiqueta" id="rom-vista-titulo">View</p>
+      <div class="filtros" id="rom-vista" role="radiogroup" aria-label="View"></div>
+
+      <div class="tr-etiqueta-fila">
+        <p class="rom-etiqueta">Variable</p>
+        <label class="tr-interruptor tr-interruptor-mini" title="Show or hide the variable on the twin">
+          <input type="checkbox" id="tr-ver-variable" role="switch" checked>
+          <span class="tr-pista" aria-hidden="true"></span>
+          <span>Show</span>
+        </label>
+      </div>
+      <div class="filtros rom-variables" id="rom-variables" role="radiogroup" aria-label="Variable"></div>
+
+      <label class="tr-interruptor">
+        <input type="checkbox" id="tr-semantica" role="switch">
+        <span class="tr-pista" aria-hidden="true"></span>
+        <span>Semantic Information</span>
+      </label>
+
+      <div id="tr-cp-bloque" hidden>
+
+        <div id="tr-cp-barra">
+          <p class="rom-etiqueta">C<sub>p</sub> on Building Faces</p>
+          <div class="rom-escala">
+            <span class="rom-barra tr-barra-cp"></span>
+            <div class="rom-escala-valores tr-valores-cp">
+              <span>−1.0<small>Suction</small></span><span>0</span><span>1.0<small>Pressure</small></span>
+            </div>
+          </div>
+        </div>
+
+        <p class="rom-etiqueta" id="tr-ts-titulo">T<sub>surface</sub> on the Floor (°C)</p>
+        <div class="rom-escala">
+          <span class="rom-barra tr-barra-ts"></span>
+          <div class="rom-escala-valores tr-cortes-ts" id="tr-ts-cortes">
+            <span style="left:20%">28</span><span style="left:40%">30</span><span style="left:60%">33</span><span style="left:80%">36</span>
+          </div>
+          <div class="rom-escala-valores tr-valores-cp"><span><small>Acceptable</small></span><span><small>Extreme</small></span></div>
+        </div>
+      </div>
+
+      <div id="rom-aq-bloque" hidden>
+        <p class="rom-etiqueta">Índice Aire y Salud<br><span class="rom-norma">NOM-172-SEMARNAT-2023</span></p>
+        <div class="rom-aq-indice" id="rom-aq-indice"></div>
+        <table class="rom-aq-tabla" id="rom-aq-tabla"></table>
+        <p class="rom-aq-nota" id="rom-aq-nota"></p>
+      </div>
+
+      <div id="rom-escala-bloque">
+        <p class="rom-etiqueta" id="rom-escala-titulo">W<sub>s</sub> Along the Streamlines</p>
+        <div class="rom-escala">
+          <span class="rom-barra" id="rom-barra"></span>
+          <div class="rom-escala-valores"><span id="rom-escala-min"></span><span id="rom-escala-max"></span></div>
+        </div>
+      </div>
+
+      <div id="rom-niveles-bloque">
+        <p class="rom-etiqueta" id="rom-leyenda-titulo">Risk Levels</p>
+        <ul class="rom-leyenda" id="rom-leyenda"></ul>
+      </div>
+    </aside>
+
+    <button type="button" class="tr-bajar" id="tr-bajar" aria-label="See the current human risk and today's records" title="Current human risk and today's records">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8l5 5 5-5"/><path d="M7 13l5 5 5-5"/></svg>
+    </button>
+  </section>
+
+  <section class="tablero tr-riesgo" id="tr-riesgo" aria-labelledby="t-riesgo">
+    <hr class="linea-climatec" aria-hidden="true">
+    <div class="tr-dia-enc">
+      <div>
+        <h2 id="t-riesgo">Current Human Risk</h2>
+        <p id="tr-riesgo-sub"></p>
+      </div>
+      <ul class="tr-leyenda hr-leyenda" id="tr-riesgo-leyenda" aria-label="Probability"></ul>
+    </div>
+    <div class="tr-tarjetas hr-tarjetas">
+      <section class="tarjeta tr-tarjeta hr-tarjeta" aria-labelledby="t-hr-calor">
+        <header class="tr-tarjeta-enc"><h3 id="t-hr-calor">Heat Risk</h3></header>
+        <div id="hr-calor"></div>
+      </section>
+      <section class="tarjeta tr-tarjeta hr-tarjeta" aria-labelledby="t-hr-aire">
+        <header class="tr-tarjeta-enc"><h3 id="t-hr-aire">Air Quality Risk</h3></header>
+        <div id="hr-aire"></div>
+      </section>
+    </div>
+  </section>
+
+  <main class="tablero tr-dia" id="tr-dia" aria-labelledby="t-dia">
+    <hr class="linea-climatec" aria-hidden="true">
+    <div class="tr-dia-enc">
+      <div>
+        <h2 id="t-dia">Summary Dashboard</h2>
+        <p id="tr-dia-sub"></p>
+      </div>
+      <ul class="tr-leyenda" id="tr-leyenda"></ul>
+    </div>
+
+    <div class="tr-tarjetas">
+      <section class="tarjeta tr-tarjeta" aria-labelledby="t-meteo">
+        <header class="tr-tarjeta-enc">
+          <h3 id="t-meteo">Weather</h3>
+          <select class="rom-select tr-select" id="tr-sel-meteo" aria-label="Weather variable"></select>
+        </header>
+        <div id="tr-meteo"></div>
+      </section>
+      <section class="tarjeta tr-tarjeta" aria-labelledby="t-aire">
+        <header class="tr-tarjeta-enc">
+          <h3 id="t-aire">Air Quality</h3>
+          <select class="rom-select tr-select" id="tr-sel-aire" aria-label="Air quality variable"></select>
+        </header>
+        <div id="tr-aire"></div>
+      </section>
+    </div>
+
+    <button type="button" class="tr-subir" id="tr-subir" aria-label="Back to the twin" title="Back to the twin">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 16l5-5 5 5"/><path d="M7 11l5-5 5 5"/></svg>
+    </button>
+
+    <footer class="pie">
+      <a class="pie-logo pie-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+      <a class="pie-logo pie-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png" alt="Tecnológico de Monterrey"></a>
+    </footer>
+  </main>
+
+  <div class="tr-tooltip" id="tr-tooltip" role="status" hidden></div>
+
+  <script>
+    (() => {
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+      const ajustar = () => document.documentElement.style.setProperty('--alto-visor',
+        `${Math.max(0, innerHeight - document.querySelector('.encabezado').getBoundingClientRect().height)}px`);
+      ajustar();
+      addEventListener('resize', ajustar);
+      new ResizeObserver(ajustar).observe(document.querySelector('.encabezado'));
+      scrollTo(0, 0);
+    })();
+  </script>
+  <script type="module" src="js/ClimaTec_tiempo_real.js?v=20261111a"></script>
+</body>
+</html>

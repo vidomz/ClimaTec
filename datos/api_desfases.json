@@ -1,0 +1,47 @@
+{
+ "generado": "2026-10-29 17:27",
+ "uso": "Generador del módulo de API (Real-Time): SIMA III y XII = SIMA I + dz (escala transformada de cada modelo de SIMA I) + una parte propia aleatoria",
+ "periodo": "2023-01-01 a 2026-06-30",
+ "estaciones": {
+  "iii": {
+   "nombre": "SIMA III",
+   "lat": 25.67583,
+   "lon": -100.33833,
+   "dz": {
+    "T": -0.68816,
+    "HR": -0.24965,
+    "Patm": -15.11754,
+    "SR": 0.18932,
+    "Ws": -0.38926,
+    "U": 1.56426,
+    "V": -3.21374,
+    "PM10": 0.16815,
+    "PM25": 0.16883,
+    "O3": 0.00496,
+    "NO2": 0.20776,
+    "SO2": 0.0605,
+    "CO": -0.0666
+   }
+  },
+  "xii": {
+   "nombre": "SIMA XII",
+   "lat": 25.61694,
+   "lon": -100.27389,
+   "dz": {
+    "T": -0.27652,
+    "HR": -0.1681,
+    "Patm": -13.81005,
+    "SR": 0.12986,
+    "Ws": -0.48634,
+    "U": 4.8039,
+    "V": 1.00306,
+    "PM10": -0.03922,
+    "PM25": -0.06259,
+    "O3": 0.00634,
+    "NO2": 0.1457,
+    "SO2": -0.15175,
+    "CO": -0.50997
+   }
+  }
+ }
+}

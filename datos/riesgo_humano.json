@@ -1,0 +1,63 @@
+{
+ "umbral_sintoma": 20,
+ "umbral_accion": 17,
+ "temperatura": {
+  "rangos": ["< 21 °C", "≥ 21 – < 28 °C", "≥ 28 – < 33 °C", "≥ 33 – < 36 °C", "≥ 36 °C"],
+  "cortes": [21, 28, 33, 36],
+  "sintomas": {
+   "Thirst": [0, 2.86, 31.43, 68.57, 85.71],
+   "Fatigue": [0, 0, 28.57, 68.57, 97.14],
+   "Headache": [2.86, 2.86, 17.14, 60.00, 91.43],
+   "Dizziness": [0, 0, 2.86, 11.43, 48.57],
+   "Nausea": [0, 0, 11.43, 28.57, 71.43],
+   "Muscle cramps": [2.86, 2.86, 11.43, 22.86, 57.14],
+   "Fever": [0, 2.86, 8.57, 20.00, 62.86],
+   "Irritability": [2.86, 2.86, 11.43, 25.71, 65.71],
+   "Fainting": [2.86, 2.86, 17.14, 37.14, 71.43],
+   "Heat exhaustion": [0, 2.86, 17.14, 54.29, 85.71],
+   "Heat stroke": [0, 2.86, 17.14, 40.00, 91.43],
+   "Dehydration": [0, 2.86, 20.00, 62.86, 94.29],
+   "Shortness of breath": [2.86, 2.86, 17.14, 25.71, 60.00],
+   "Cardiovascular stress": [5.71, 5.71, 11.43, 17.14, 40.00],
+   "Reduced physical performance": [5.71, 8.57, 31.43, 57.14, 80.00]
+  },
+  "acciones": {
+   "Drink electrolyte beverages": [2.86, 2.86, 20.00, 65.71, 91.43],
+   "Avoid physical activity": [0, 0, 17.14, 48.57, 85.71],
+   "Seek medical attention if symptoms develop": [8.57, 8.57, 14.29, 40.00, 62.86],
+   "Stay indoors": [5.71, 5.71, 17.14, 54.29, 71.43],
+   "Wear light-colored, lightweight clothing": [0, 5.71, 31.43, 68.57, 82.86],
+   "Rest in a cool place": [0, 0, 25.71, 51.43, 74.29]
+  }
+ },
+ "aire": {
+  "niveles": ["Low risk", "Moderate risk", "High risk", "Extreme risk"],
+  "desde_nom172": "categoría del Índice AIRE Y SALUD (riesgo Bajo, Moderado, Alto, Muy alto, Extremadamente alto) → nivel de la tabla: 1 → Low, 2 → Moderate, 3 → High, 4 y 5 → Extreme",
+  "de_categoria": [0, 0, 1, 2, 3, 3],
+  "sintomas": {
+   "Eye irritation": [6.06, 57.58, 93.94, 100.00],
+   "Nasal irritation": [9.09, 60.61, 93.94, 96.97],
+   "Throat irritation": [6.06, 51.52, 81.82, 87.88],
+   "Cough": [6.06, 42.42, 78.79, 84.85],
+   "Nasal congestion": [9.09, 54.55, 78.79, 81.82],
+   "Chest pain": [0, 15.15, 36.36, 60.61],
+   "Shortness of breath": [0, 18.18, 42.42, 63.64],
+   "Headache": [6.06, 51.52, 78.79, 84.85],
+   "Dizziness": [3.03, 27.27, 48.48, 60.61],
+   "Fatigue": [3.03, 42.42, 69.70, 75.76],
+   "Nausea": [3.03, 21.21, 48.48, 60.61],
+   "Reduced physical performance": [6.06, 42.42, 66.67, 78.79],
+   "Reduced concentration": [3.03, 36.36, 48.48, 66.67],
+   "Fainting": [3.03, 18.18, 39.39, 60.61],
+   "Asthma exacerbation": [6.06, 51.52, 78.79, 90.91]
+  },
+  "acciones": {
+   "Stay indoors": [6.06, 48.48, 81.82, 87.88],
+   "Wear a mask": [3.03, 48.48, 72.73, 78.79],
+   "Avoid outdoor physical activity": [3.03, 39.39, 84.85, 84.85],
+   "Seek medical attention if symptoms develop": [0, 30.30, 51.52, 60.61],
+   "Carry a rescue inhaler if required": [0, 24.24, 39.39, 54.55],
+   "Use an air purifier": [15.15, 45.45, 69.70, 78.79]
+  }
+ }
+}

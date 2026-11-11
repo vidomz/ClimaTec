@@ -1,0 +1,1338 @@
+{
+ "generado": "2026-10-28 14:41",
+ "clases": [
+  "concreto",
+  "piedra",
+  "vidrio",
+  "metal"
+ ],
+ "metodo": "lo que se ve del gemelo: rayos de frente a los 4 alzados y desde arriba a los techos sobre las texturas hechas con fotos reales; vidrio y metal del mapa de rugosidad y metal, el acabado opaco según la reconstrucción de cada edificio",
+ "edificios": [
+  {
+   "nombre": "Arena Borregos",
+   "corto": "Arena Borregos",
+   "objetos": [
+    "arena"
+   ],
+   "area_m2": {
+    "muros": 1355,
+    "techos": 2658
+   },
+   "muros": {
+    "concreto": 36.5,
+    "piedra": 0.0,
+    "vidrio": 56.2,
+    "metal": 7.3
+   },
+   "techos": {
+    "concreto": 99.9,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 0.1
+   },
+   "total": {
+    "concreto": 78.5,
+    "piedra": 0.0,
+    "vidrio": 19.0,
+    "metal": 2.5
+   },
+   "subclases": {
+    "muros": {
+     "mate": 13.0,
+     "semi": 23.2,
+     "semi_oscuro": 0.2,
+     "rojo": 0.0,
+     "vidrio": 55.9,
+     "metal": 7.2,
+     "otro": 0.5
+    },
+    "techos": {
+     "mate": 0.0,
+     "semi": 99.9,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 0.1,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Aulas I",
+   "corto": "Aulas I",
+   "objetos": [
+    "edificio_0669"
+   ],
+   "area_m2": {
+    "muros": 3877,
+    "techos": 1533
+   },
+   "muros": {
+    "concreto": 57.0,
+    "piedra": 18.7,
+    "vidrio": 24.3,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 98.3,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 1.7
+   },
+   "total": {
+    "concreto": 68.7,
+    "piedra": 13.4,
+    "vidrio": 17.4,
+    "metal": 0.5
+   },
+   "subclases": {
+    "muros": {
+     "mate": 40.4,
+     "semi": 15.0,
+     "semi_oscuro": 1.5,
+     "rojo": 18.6,
+     "vidrio": 24.3,
+     "metal": 0.0,
+     "otro": 0.2
+    },
+    "techos": {
+     "mate": 97.4,
+     "semi": 0.9,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 1.7,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Aulas II",
+   "corto": "Aulas II",
+   "objetos": [
+    "edificio_0668"
+   ],
+   "area_m2": {
+    "muros": 3115,
+    "techos": 2200
+   },
+   "muros": {
+    "concreto": 67.0,
+    "piedra": 0.0,
+    "vidrio": 33.0,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 97.2,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 2.8
+   },
+   "total": {
+    "concreto": 79.5,
+    "piedra": 0.0,
+    "vidrio": 19.3,
+    "metal": 1.1
+   },
+   "subclases": {
+    "muros": {
+     "mate": 55.6,
+     "semi": 9.7,
+     "semi_oscuro": 1.7,
+     "rojo": 0.0,
+     "vidrio": 32.9,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 96.7,
+     "semi": 0.5,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 2.8,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Aulas III",
+   "corto": "Aulas III",
+   "objetos": [
+    "edificio_0656"
+   ],
+   "area_m2": {
+    "muros": 3833,
+    "techos": 1600
+   },
+   "muros": {
+    "concreto": 51.4,
+    "piedra": 20.2,
+    "vidrio": 28.4,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 97.6,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 2.4
+   },
+   "total": {
+    "concreto": 65.0,
+    "piedra": 14.3,
+    "vidrio": 20.0,
+    "metal": 0.7
+   },
+   "subclases": {
+    "muros": {
+     "mate": 29.2,
+     "semi": 20.6,
+     "semi_oscuro": 0.3,
+     "rojo": 19.7,
+     "vidrio": 27.7,
+     "metal": 0.0,
+     "otro": 2.6
+    },
+    "techos": {
+     "mate": 96.9,
+     "semi": 0.7,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 2.4,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Aulas IV",
+   "corto": "Aulas IV",
+   "objetos": [
+    "edificio_0706"
+   ],
+   "area_m2": {
+    "muros": 5128,
+    "techos": 3814
+   },
+   "muros": {
+    "concreto": 59.9,
+    "piedra": 0.0,
+    "vidrio": 40.1,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 98.6,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 1.4
+   },
+   "total": {
+    "concreto": 76.4,
+    "piedra": 0.0,
+    "vidrio": 23.0,
+    "metal": 0.6
+   },
+   "subclases": {
+    "muros": {
+     "mate": 51.7,
+     "semi": 7.0,
+     "semi_oscuro": 1.2,
+     "rojo": 0.0,
+     "vidrio": 40.1,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 98.1,
+     "semi": 0.5,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 1.4,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Aulas VII",
+   "corto": "Aulas VII",
+   "objetos": [
+    "edificio_0661"
+   ],
+   "area_m2": {
+    "muros": 4572,
+    "techos": 3718
+   },
+   "muros": {
+    "concreto": 68.2,
+    "piedra": 0.0,
+    "vidrio": 31.8,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 98.7,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 1.3
+   },
+   "total": {
+    "concreto": 81.9,
+    "piedra": 0.0,
+    "vidrio": 17.6,
+    "metal": 0.6
+   },
+   "subclases": {
+    "muros": {
+     "mate": 59.7,
+     "semi": 6.6,
+     "semi_oscuro": 1.8,
+     "rojo": 0.0,
+     "vidrio": 31.8,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 98.2,
+     "semi": 0.5,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 1.3,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "BiblioTEC",
+   "corto": "BiblioTEC",
+   "objetos": [
+    "biblio"
+   ],
+   "area_m2": {
+    "muros": 5784,
+    "techos": 2733
+   },
+   "muros": {
+    "concreto": 0.0,
+    "piedra": 12.6,
+    "vidrio": 55.6,
+    "metal": 31.9
+   },
+   "techos": {
+    "concreto": 93.6,
+    "piedra": 0.0,
+    "vidrio": 3.8,
+    "metal": 2.5
+   },
+   "total": {
+    "concreto": 30.0,
+    "piedra": 8.6,
+    "vidrio": 39.0,
+    "metal": 22.4
+   },
+   "subclases": {
+    "muros": {
+     "mate": 0.0,
+     "semi": 11.9,
+     "semi_oscuro": 0.3,
+     "rojo": 0.3,
+     "vidrio": 55.3,
+     "metal": 31.7,
+     "otro": 0.5
+    },
+    "techos": {
+     "mate": 91.8,
+     "semi": 1.8,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 3.8,
+     "metal": 2.5,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Centrales",
+   "corto": "Centrales",
+   "objetos": [
+    "edificio_0694",
+    "edificio_0696",
+    "edificio_0697",
+    "edificio_0698"
+   ],
+   "area_m2": {
+    "muros": 1845,
+    "techos": 3360
+   },
+   "muros": {
+    "concreto": 54.6,
+    "piedra": 0.0,
+    "vidrio": 45.4,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 97.4,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 2.6
+   },
+   "total": {
+    "concreto": 82.2,
+    "piedra": 0.0,
+    "vidrio": 16.1,
+    "metal": 1.7
+   },
+   "subclases": {
+    "muros": {
+     "mate": 44.6,
+     "semi": 6.2,
+     "semi_oscuro": 3.8,
+     "rojo": 0.0,
+     "vidrio": 45.4,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 97.0,
+     "semi": 0.4,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 2.6,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Centro de Biotecnología FEMSA",
+   "corto": "Biotecnología FEMSA",
+   "objetos": [
+    "edificio_0687"
+   ],
+   "area_m2": {
+    "muros": 3448,
+    "techos": 1954
+   },
+   "muros": {
+    "concreto": 3.7,
+    "piedra": 63.6,
+    "vidrio": 31.7,
+    "metal": 1.0
+   },
+   "techos": {
+    "concreto": 90.4,
+    "piedra": 0.0,
+    "vidrio": 7.8,
+    "metal": 1.8
+   },
+   "total": {
+    "concreto": 35.1,
+    "piedra": 40.6,
+    "vidrio": 23.1,
+    "metal": 1.3
+   },
+   "subclases": {
+    "muros": {
+     "mate": 3.7,
+     "semi": 63.2,
+     "semi_oscuro": 0.3,
+     "rojo": 0.0,
+     "vidrio": 31.7,
+     "metal": 1.0,
+     "otro": 0.2
+    },
+    "techos": {
+     "mate": 77.6,
+     "semi": 12.8,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 7.8,
+     "metal": 1.8,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Centro de Congresos",
+   "corto": "Centro de Congresos",
+   "objetos": [
+    "edificio_0660"
+   ],
+   "area_m2": {
+    "muros": 1976,
+    "techos": 4134
+   },
+   "muros": {
+    "concreto": 69.5,
+    "piedra": 0.0,
+    "vidrio": 30.5,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 92.2,
+    "piedra": 0.0,
+    "vidrio": 6.3,
+    "metal": 1.5
+   },
+   "total": {
+    "concreto": 84.9,
+    "piedra": 0.0,
+    "vidrio": 14.1,
+    "metal": 1.0
+   },
+   "subclases": {
+    "muros": {
+     "mate": 65.8,
+     "semi": 3.4,
+     "semi_oscuro": 0.3,
+     "rojo": 0.0,
+     "vidrio": 30.5,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 84.2,
+     "semi": 1.4,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 5.9,
+     "metal": 1.4,
+     "otro": 7.1
+    }
+   }
+  },
+  {
+   "nombre": "Centro de Tecnología Avanzada para la Producción (CETEC)",
+   "corto": "CETEC",
+   "objetos": [
+    "cetec"
+   ],
+   "area_m2": {
+    "muros": 3506,
+    "techos": 1370
+   },
+   "muros": {
+    "concreto": 56.5,
+    "piedra": 0.1,
+    "vidrio": 29.1,
+    "metal": 14.3
+   },
+   "techos": {
+    "concreto": 96.7,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 3.3
+   },
+   "total": {
+    "concreto": 67.8,
+    "piedra": 0.0,
+    "vidrio": 20.9,
+    "metal": 11.2
+   },
+   "subclases": {
+    "muros": {
+     "mate": 54.0,
+     "semi": 0.7,
+     "semi_oscuro": 1.9,
+     "rojo": 0.1,
+     "vidrio": 29.1,
+     "metal": 14.3,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 96.7,
+     "semi": 0.0,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 3.3,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Centro Deportivo Borregos II",
+   "corto": "Deportivo Borregos II",
+   "objetos": [
+    "edificio_0625"
+   ],
+   "area_m2": {
+    "muros": 1091,
+    "techos": 1404
+   },
+   "muros": {
+    "concreto": 88.8,
+    "piedra": 0.0,
+    "vidrio": 11.2,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 98.7,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 1.3
+   },
+   "total": {
+    "concreto": 94.4,
+    "piedra": 0.0,
+    "vidrio": 4.9,
+    "metal": 0.7
+   },
+   "subclases": {
+    "muros": {
+     "mate": 82.3,
+     "semi": 6.5,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 11.2,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 98.4,
+     "semi": 0.4,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 1.3,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Centro Deportivo Escamilla",
+   "corto": "Deportivo Escamilla",
+   "objetos": [
+    "edificio_0555"
+   ],
+   "area_m2": {
+    "muros": 1507,
+    "techos": 1292
+   },
+   "muros": {
+    "concreto": 83.7,
+    "piedra": 0.0,
+    "vidrio": 2.5,
+    "metal": 13.8
+   },
+   "techos": {
+    "concreto": 5.0,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 95.0
+   },
+   "total": {
+    "concreto": 47.4,
+    "piedra": 0.0,
+    "vidrio": 1.3,
+    "metal": 51.3
+   },
+   "subclases": {
+    "muros": {
+     "mate": 46.8,
+     "semi": 20.6,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 2.0,
+     "metal": 11.1,
+     "otro": 19.6
+    },
+    "techos": {
+     "mate": 2.2,
+     "semi": 2.7,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 95.0,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Centro Internacional de Aprendizaje Avanzado (CIAP)",
+   "corto": "CIAP",
+   "objetos": [
+    "edificio_0689"
+   ],
+   "area_m2": {
+    "muros": 8710,
+    "techos": 2744
+   },
+   "muros": {
+    "concreto": 63.4,
+    "piedra": 0.0,
+    "vidrio": 36.6,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 97.8,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 2.2
+   },
+   "total": {
+    "concreto": 71.7,
+    "piedra": 0.0,
+    "vidrio": 27.8,
+    "metal": 0.5
+   },
+   "subclases": {
+    "muros": {
+     "mate": 56.8,
+     "semi": 6.1,
+     "semi_oscuro": 0.5,
+     "rojo": 0.0,
+     "vidrio": 36.6,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 97.1,
+     "semi": 0.7,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 2.2,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Centro para el Desarrollo Sostenible (CEDES)",
+   "corto": "CEDES",
+   "objetos": [
+    "cedes"
+   ],
+   "area_m2": {
+    "muros": 7798,
+    "techos": 1812
+   },
+   "muros": {
+    "concreto": 8.5,
+    "piedra": 0.0,
+    "vidrio": 69.5,
+    "metal": 22.0
+   },
+   "techos": {
+    "concreto": 43.3,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 56.7
+   },
+   "total": {
+    "concreto": 15.0,
+    "piedra": 0.0,
+    "vidrio": 56.4,
+    "metal": 28.6
+   },
+   "subclases": {
+    "muros": {
+     "mate": 0.0,
+     "semi": 8.3,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 68.5,
+     "metal": 21.7,
+     "otro": 1.4
+    },
+    "techos": {
+     "mate": 36.2,
+     "semi": 0.0,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 47.4,
+     "otro": 16.4
+    }
+   }
+  },
+  {
+   "nombre": "Domo Cultural",
+   "corto": "Domo Cultural",
+   "objetos": [
+    "edificio_0693"
+   ],
+   "area_m2": {
+    "muros": 501,
+    "techos": 1168
+   },
+   "muros": {
+    "concreto": 96.5,
+    "piedra": 0.0,
+    "vidrio": 3.3,
+    "metal": 0.2
+   },
+   "techos": {
+    "concreto": 98.7,
+    "piedra": 0.0,
+    "vidrio": 1.3,
+    "metal": 0.0
+   },
+   "total": {
+    "concreto": 98.1,
+    "piedra": 0.0,
+    "vidrio": 1.9,
+    "metal": 0.1
+   },
+   "subclases": {
+    "muros": {
+     "mate": 92.7,
+     "semi": 3.7,
+     "semi_oscuro": 0.2,
+     "rojo": 0.0,
+     "vidrio": 3.3,
+     "metal": 0.2,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 62.9,
+     "semi": 35.8,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 1.3,
+     "metal": 0.0,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Espacio de Reflexión",
+   "corto": "Espacio de Reflexión",
+   "objetos": [
+    "edificio_0671"
+   ],
+   "area_m2": {
+    "muros": 564,
+    "techos": 337
+   },
+   "muros": {
+    "concreto": 98.7,
+    "piedra": 0.0,
+    "vidrio": 1.3,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 100.0,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 0.0
+   },
+   "total": {
+    "concreto": 99.2,
+    "piedra": 0.0,
+    "vidrio": 0.8,
+    "metal": 0.0
+   },
+   "subclases": {
+    "muros": {
+     "mate": 98.7,
+     "semi": 0.0,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 1.3,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 100.0,
+     "semi": 0.0,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 0.0,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Estacionamiento E1",
+   "corto": "Estacionamiento E1",
+   "objetos": [
+    "edificio_0002"
+   ],
+   "area_m2": {
+    "muros": 6980,
+    "techos": 9665
+   },
+   "muros": {
+    "concreto": 96.1,
+    "piedra": 0.6,
+    "vidrio": 3.3,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 99.5,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 0.5
+   },
+   "total": {
+    "concreto": 98.1,
+    "piedra": 0.3,
+    "vidrio": 1.4,
+    "metal": 0.3
+   },
+   "subclases": {
+    "muros": {
+     "mate": 93.2,
+     "semi": 2.1,
+     "semi_oscuro": 0.1,
+     "rojo": 0.6,
+     "vidrio": 3.3,
+     "metal": 0.0,
+     "otro": 0.8
+    },
+    "techos": {
+     "mate": 99.4,
+     "semi": 0.1,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 0.5,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Estacionamiento E2",
+   "corto": "Estacionamiento E2",
+   "objetos": [
+    "edificio_0595"
+   ],
+   "area_m2": {
+    "muros": 3785,
+    "techos": 3393
+   },
+   "muros": {
+    "concreto": 97.9,
+    "piedra": 0.5,
+    "vidrio": 1.5,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 99.1,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 0.9
+   },
+   "total": {
+    "concreto": 98.5,
+    "piedra": 0.3,
+    "vidrio": 0.8,
+    "metal": 0.4
+   },
+   "subclases": {
+    "muros": {
+     "mate": 93.8,
+     "semi": 1.2,
+     "semi_oscuro": 2.6,
+     "rojo": 0.5,
+     "vidrio": 1.5,
+     "metal": 0.0,
+     "otro": 0.4
+    },
+    "techos": {
+     "mate": 98.9,
+     "semi": 0.2,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 0.9,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Estadio Borregos",
+   "corto": "Estadio Borregos",
+   "objetos": [
+    "estadio"
+   ],
+   "area_m2": {
+    "muros": 6797,
+    "techos": 8476
+   },
+   "muros": {
+    "concreto": 69.0,
+    "piedra": 0.0,
+    "vidrio": 16.2,
+    "metal": 14.8
+   },
+   "techos": {
+    "concreto": 51.4,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 48.6
+   },
+   "total": {
+    "concreto": 59.3,
+    "piedra": 0.0,
+    "vidrio": 7.2,
+    "metal": 33.5
+   },
+   "subclases": {
+    "muros": {
+     "mate": 47.1,
+     "semi": 17.2,
+     "semi_oscuro": 1.0,
+     "rojo": 0.0,
+     "vidrio": 15.3,
+     "metal": 14.0,
+     "otro": 5.4
+    },
+    "techos": {
+     "mate": 34.2,
+     "semi": 6.0,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 37.9,
+     "otro": 21.9
+    }
+   }
+  },
+  {
+   "nombre": "Expedition FEMSA",
+   "corto": "Expedition FEMSA",
+   "objetos": [
+    "expedition"
+   ],
+   "area_m2": {
+    "muros": 3970,
+    "techos": 1406
+   },
+   "muros": {
+    "concreto": 15.4,
+    "piedra": 4.9,
+    "vidrio": 30.9,
+    "metal": 48.8
+   },
+   "techos": {
+    "concreto": 89.7,
+    "piedra": 0.0,
+    "vidrio": 7.5,
+    "metal": 2.9
+   },
+   "total": {
+    "concreto": 34.8,
+    "piedra": 3.6,
+    "vidrio": 24.8,
+    "metal": 36.8
+   },
+   "subclases": {
+    "muros": {
+     "mate": 15.4,
+     "semi": 38.1,
+     "semi_oscuro": 0.0,
+     "rojo": 4.9,
+     "vidrio": 30.9,
+     "metal": 10.7,
+     "otro": 0.1
+    },
+    "techos": {
+     "mate": 82.4,
+     "semi": 6.7,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 7.4,
+     "metal": 2.9,
+     "otro": 0.6
+    }
+   }
+  },
+  {
+   "nombre": "Hub de Innovación y Emprendimiento",
+   "corto": "Hub de Innovación",
+   "objetos": [
+    "expedition.001"
+   ],
+   "area_m2": {
+    "muros": 3966,
+    "techos": 1406
+   },
+   "muros": {
+    "concreto": 31.0,
+    "piedra": 0.0,
+    "vidrio": 62.4,
+    "metal": 6.5
+   },
+   "techos": {
+    "concreto": 4.8,
+    "piedra": 0.0,
+    "vidrio": 78.1,
+    "metal": 17.1
+   },
+   "total": {
+    "concreto": 24.2,
+    "piedra": 0.0,
+    "vidrio": 66.5,
+    "metal": 9.3
+   },
+   "subclases": {
+    "muros": {
+     "mate": 15.3,
+     "semi": 15.4,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 61.9,
+     "metal": 6.5,
+     "otro": 0.9
+    },
+    "techos": {
+     "mate": 0.0,
+     "semi": 4.8,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 78.0,
+     "metal": 17.1,
+     "otro": 0.1
+    }
+   }
+  },
+  {
+   "nombre": "Pabellón La Carreta",
+   "corto": "La Carreta",
+   "objetos": [
+    "edificio_0699"
+   ],
+   "area_m2": {
+    "muros": 512,
+    "techos": 1296
+   },
+   "muros": {
+    "concreto": 2.9,
+    "piedra": 0.0,
+    "vidrio": 66.8,
+    "metal": 30.4
+   },
+   "techos": {
+    "concreto": 63.2,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 36.8
+   },
+   "total": {
+    "concreto": 46.1,
+    "piedra": 0.0,
+    "vidrio": 18.9,
+    "metal": 35.0
+   },
+   "subclases": {
+    "muros": {
+     "mate": 2.9,
+     "semi": 30.4,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 66.8,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 63.2,
+     "semi": 36.8,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 0.0,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Rectoría del Tecnológico de Monterrey",
+   "corto": "Rectoría",
+   "objetos": [
+    "edificio_0665"
+   ],
+   "area_m2": {
+    "muros": 2051,
+    "techos": 1528
+   },
+   "muros": {
+    "concreto": 39.8,
+    "piedra": 11.2,
+    "vidrio": 48.9,
+    "metal": 0.1
+   },
+   "techos": {
+    "concreto": 97.5,
+    "piedra": 0.0,
+    "vidrio": 0.0,
+    "metal": 2.5
+   },
+   "total": {
+    "concreto": 64.4,
+    "piedra": 6.4,
+    "vidrio": 28.0,
+    "metal": 1.1
+   },
+   "subclases": {
+    "muros": {
+     "mate": 39.5,
+     "semi": 8.1,
+     "semi_oscuro": 0.2,
+     "rojo": 3.2,
+     "vidrio": 48.8,
+     "metal": 0.1,
+     "otro": 0.2
+    },
+    "techos": {
+     "mate": 87.2,
+     "semi": 10.2,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 0.0,
+     "metal": 2.5,
+     "otro": 0.0
+    }
+   }
+  },
+  {
+   "nombre": "Residencias I",
+   "corto": "Residencias I",
+   "objetos": [
+    "edificio_0585"
+   ],
+   "area_m2": {
+    "muros": 4891,
+    "techos": 1216
+   },
+   "muros": {
+    "concreto": 63.9,
+    "piedra": 0.0,
+    "vidrio": 32.3,
+    "metal": 3.8
+   },
+   "techos": {
+    "concreto": 50.5,
+    "piedra": 0.0,
+    "vidrio": 44.5,
+    "metal": 4.9
+   },
+   "total": {
+    "concreto": 61.2,
+    "piedra": 0.0,
+    "vidrio": 34.8,
+    "metal": 4.0
+   },
+   "subclases": {
+    "muros": {
+     "mate": 49.9,
+     "semi": 12.1,
+     "semi_oscuro": 1.8,
+     "rojo": 0.0,
+     "vidrio": 32.3,
+     "metal": 3.8,
+     "otro": 0.1
+    },
+    "techos": {
+     "mate": 36.3,
+     "semi": 11.5,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 42.2,
+     "metal": 4.7,
+     "otro": 5.3
+    }
+   }
+  },
+  {
+   "nombre": "Residencias III",
+   "corto": "Residencias III",
+   "objetos": [
+    "edificio_0580"
+   ],
+   "area_m2": {
+    "muros": 5250,
+    "techos": 1684
+   },
+   "muros": {
+    "concreto": 64.4,
+    "piedra": 0.0,
+    "vidrio": 35.6,
+    "metal": 0.0
+   },
+   "techos": {
+    "concreto": 56.4,
+    "piedra": 0.0,
+    "vidrio": 35.9,
+    "metal": 7.6
+   },
+   "total": {
+    "concreto": 62.4,
+    "piedra": 0.0,
+    "vidrio": 35.7,
+    "metal": 1.9
+   },
+   "subclases": {
+    "muros": {
+     "mate": 53.2,
+     "semi": 10.5,
+     "semi_oscuro": 0.7,
+     "rojo": 0.0,
+     "vidrio": 35.6,
+     "metal": 0.0,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 46.9,
+     "semi": 8.0,
+     "semi_oscuro": 0.1,
+     "rojo": 0.0,
+     "vidrio": 34.9,
+     "metal": 7.4,
+     "otro": 2.7
+    }
+   }
+  },
+  {
+   "nombre": "Wellness Center",
+   "corto": "Wellness Center",
+   "objetos": [
+    "edificio_0597"
+   ],
+   "area_m2": {
+    "muros": 5676,
+    "techos": 5144
+   },
+   "muros": {
+    "concreto": 0.0,
+    "piedra": 0.0,
+    "vidrio": 51.7,
+    "metal": 48.3
+   },
+   "techos": {
+    "concreto": 92.2,
+    "piedra": 0.0,
+    "vidrio": 6.8,
+    "metal": 1.0
+   },
+   "total": {
+    "concreto": 43.8,
+    "piedra": 0.0,
+    "vidrio": 30.4,
+    "metal": 25.8
+   },
+   "subclases": {
+    "muros": {
+     "mate": 0.0,
+     "semi": 47.9,
+     "semi_oscuro": 0.2,
+     "rojo": 0.0,
+     "vidrio": 51.7,
+     "metal": 0.2,
+     "otro": 0.0
+    },
+    "techos": {
+     "mate": 81.8,
+     "semi": 10.4,
+     "semi_oscuro": 0.0,
+     "rojo": 0.0,
+     "vidrio": 6.8,
+     "metal": 1.0,
+     "otro": 0.0
+    }
+   }
+  }
+ ]
+}

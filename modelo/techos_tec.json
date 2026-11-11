@@ -1,0 +1,343 @@
+{
+ "generado": "2026-10-29 09:53",
+ "clases": [
+  "concreto",
+  "piedra",
+  "vidrio",
+  "metal"
+ ],
+ "metodo": "rayos verticales cada 0.75 m sobre las texturas hechas con fotos reales (azoteas a más de 1.5 m del piso); material con el criterio de composicion_materiales.py; albedo del color con Celniker et al. (2021), Ec. (2): ρ = 9.44e-5·L*²",
+ "edificios": {
+  "Arena Borregos": {
+   "concreto": 99.9,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 0.1,
+   "albedo": {
+    "concreto": 0.638,
+    "metal": 0.07
+   },
+   "altura_m": 10.6,
+   "impactos": 5810
+  },
+  "Aulas I": {
+   "concreto": 98.3,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 1.7,
+   "albedo": {
+    "concreto": 0.574,
+    "metal": 0.395
+   },
+   "altura_m": 12.7,
+   "impactos": 3351
+  },
+  "Aulas II": {
+   "concreto": 97.2,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 2.8,
+   "albedo": {
+    "concreto": 0.425,
+    "metal": 0.384
+   },
+   "altura_m": 10.4,
+   "impactos": 4810
+  },
+  "Aulas III": {
+   "concreto": 97.6,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 2.4,
+   "albedo": {
+    "concreto": 0.542,
+    "metal": 0.357
+   },
+   "altura_m": 12.7,
+   "impactos": 3498
+  },
+  "Aulas IV": {
+   "concreto": 98.6,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 1.4,
+   "albedo": {
+    "concreto": 0.604,
+    "metal": 0.382
+   },
+   "altura_m": 12.7,
+   "impactos": 8337
+  },
+  "Aulas VII": {
+   "concreto": 98.7,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 1.3,
+   "albedo": {
+    "concreto": 0.602,
+    "metal": 0.388
+   },
+   "altura_m": 12.7,
+   "impactos": 8128
+  },
+  "BiblioTEC": {
+   "concreto": 93.6,
+   "piedra": 0.0,
+   "vidrio": 3.8,
+   "metal": 2.5,
+   "albedo": {
+    "concreto": 0.633,
+    "vidrio": 0.195,
+    "metal": 0.39
+   },
+   "altura_m": 27.8,
+   "impactos": 5974
+  },
+  "Centrales": {
+   "concreto": 97.4,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 2.6,
+   "albedo": {
+    "concreto": 0.442,
+    "metal": 0.376
+   },
+   "altura_m": 6.3,
+   "impactos": 7345
+  },
+  "Centro de Biotecnología FEMSA": {
+   "concreto": 90.4,
+   "piedra": 0.0,
+   "vidrio": 7.8,
+   "metal": 1.8,
+   "albedo": {
+    "concreto": 0.545,
+    "vidrio": 0.205,
+    "metal": 0.386
+   },
+   "altura_m": 15.8,
+   "impactos": 4271
+  },
+  "Centro de Congresos": {
+   "concreto": 92.2,
+   "piedra": 0.0,
+   "vidrio": 6.3,
+   "metal": 1.5,
+   "albedo": {
+    "concreto": 0.661,
+    "vidrio": 0.05,
+    "metal": 0.389
+   },
+   "altura_m": 6.3,
+   "impactos": 8391
+  },
+  "Centro de Tecnología Avanzada para la Producción (CETEC)": {
+   "concreto": 96.7,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 3.3,
+   "albedo": {
+    "concreto": 0.501,
+    "metal": 0.093
+   },
+   "altura_m": 25.1,
+   "impactos": 2995
+  },
+  "Centro Deportivo Borregos II": {
+   "concreto": 98.7,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 1.3,
+   "albedo": {
+    "concreto": 0.663,
+    "metal": 0.421
+   },
+   "altura_m": 6.3,
+   "impactos": 3069
+  },
+  "Centro Deportivo Escamilla": {
+   "concreto": 5.0,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 95.0,
+   "albedo": {
+    "concreto": 0.663,
+    "metal": 0.625
+   },
+   "altura_m": 6.3,
+   "impactos": 2824
+  },
+  "Centro Internacional de Aprendizaje Avanzado (CIAP)": {
+   "concreto": 97.8,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 2.2,
+   "albedo": {
+    "concreto": 0.63,
+    "metal": 0.39
+   },
+   "altura_m": 19.0,
+   "impactos": 5998
+  },
+  "Centro para el Desarrollo Sostenible (CEDES)": {
+   "concreto": 43.3,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 56.7,
+   "albedo": {
+    "concreto": 0.492,
+    "metal": 0.444
+   },
+   "altura_m": 5.3,
+   "impactos": 3311
+  },
+  "Domo Cultural": {
+   "concreto": 98.7,
+   "piedra": 0.0,
+   "vidrio": 1.3,
+   "metal": 0.0,
+   "albedo": {
+    "concreto": 0.712,
+    "vidrio": 0.087
+   },
+   "altura_m": 3.2,
+   "impactos": 2554
+  },
+  "Espacio de Reflexión": {
+   "concreto": 100.0,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 0.0,
+   "albedo": {
+    "concreto": 0.721
+   },
+   "altura_m": 6.3,
+   "impactos": 736
+  },
+  "Estacionamiento E1": {
+   "concreto": 99.5,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 0.5,
+   "albedo": {
+    "concreto": 0.617,
+    "metal": 0.347
+   },
+   "altura_m": 12.7,
+   "impactos": 21126
+  },
+  "Estacionamiento E2": {
+   "concreto": 99.1,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 0.9,
+   "albedo": {
+    "concreto": 0.618,
+    "metal": 0.418
+   },
+   "altura_m": 14.4,
+   "impactos": 7417
+  },
+  "Estadio Borregos": {
+   "concreto": 51.4,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 48.6,
+   "albedo": {
+    "concreto": 0.362,
+    "metal": 0.619
+   },
+   "altura_m": 10.8,
+   "impactos": 14465
+  },
+  "Expedition FEMSA": {
+   "concreto": 89.7,
+   "piedra": 0.0,
+   "vidrio": 7.5,
+   "metal": 2.9,
+   "albedo": {
+    "concreto": 0.594,
+    "vidrio": 0.05,
+    "metal": 0.364
+   },
+   "altura_m": 27.4,
+   "impactos": 3055
+  },
+  "Hub de Innovación y Emprendimiento": {
+   "concreto": 4.8,
+   "piedra": 0.0,
+   "vidrio": 78.1,
+   "metal": 17.1,
+   "albedo": {
+    "concreto": 0.116,
+    "vidrio": 0.055,
+    "metal": 0.457
+   },
+   "altura_m": 27.4,
+   "impactos": 3071
+  },
+  "Pabellón La Carreta": {
+   "concreto": 63.2,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 36.8,
+   "albedo": {
+    "concreto": 0.293,
+    "metal": 0.605
+   },
+   "altura_m": 3.2,
+   "impactos": 2834
+  },
+  "Rectoría del Tecnológico de Monterrey": {
+   "concreto": 97.5,
+   "piedra": 0.0,
+   "vidrio": 0.0,
+   "metal": 2.5,
+   "albedo": {
+    "concreto": 0.453,
+    "metal": 0.362
+   },
+   "altura_m": 12.7,
+   "impactos": 3339
+  },
+  "Residencias I": {
+   "concreto": 50.5,
+   "piedra": 0.0,
+   "vidrio": 44.5,
+   "metal": 4.9,
+   "albedo": {
+    "concreto": 0.463,
+    "vidrio": 0.052,
+    "metal": 0.101
+   },
+   "altura_m": 22.2,
+   "impactos": 2517
+  },
+  "Residencias III": {
+   "concreto": 56.4,
+   "piedra": 0.0,
+   "vidrio": 35.9,
+   "metal": 7.6,
+   "albedo": {
+    "concreto": 0.513,
+    "vidrio": 0.052,
+    "metal": 0.101
+   },
+   "altura_m": 25.4,
+   "impactos": 3582
+  },
+  "Wellness Center": {
+   "concreto": 92.2,
+   "piedra": 0.0,
+   "vidrio": 6.8,
+   "metal": 1.0,
+   "albedo": {
+    "concreto": 0.649,
+    "vidrio": 0.365,
+    "metal": 0.387
+   },
+   "altura_m": 15.8,
+   "impactos": 11245
+  }
+ }
+}

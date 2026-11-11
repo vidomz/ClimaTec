@@ -1,0 +1,158 @@
+{
+ "generado": "2026-11-05 13:07",
+ "area_piso": 6480,
+ "estandar_kwh_m2": [
+  75.0,
+  100.0
+ ],
+ "cop": 3.5,
+ "t_in": 24.0,
+ "tarifa_kwh": 1.5334,
+ "tarifa_kw": 444.13,
+ "periodos": [
+  {
+   "id": "invierno",
+   "etiqueta": "Winter",
+   "inicio": "2026-12-15",
+   "fin": "2027-01-15",
+   "dias": 32.0,
+   "corrida": "caso_20261229_1600",
+   "clima": {
+    "T": 15.8,
+    "T_max": 20.9,
+    "HR": 55.7,
+    "SR": 104.3
+   },
+   "estandar_kwh": [
+    42608,
+    56811
+   ],
+   "edificios": {
+    "x": {
+     "carga_kwh": 35642,
+     "enfriamiento_kwh": 10183,
+     "total_kwh": 53729,
+     "pico_kw": 232.3,
+     "pico_hora": "2027-01-15T14:00",
+     "pico_w_m2": 35.8,
+     "medio_kw": 30.3,
+     "w_m2": 10.8,
+     "kwh_m2": 8.29,
+     "horas_frio": 267,
+     "desglose": {
+      "solar": 14325,
+      "envolvente": -15769,
+      "interno": 47579,
+      "ventilacion": -10494
+     },
+     "costo": {
+      "enfriamiento": 46644,
+      "total": 175591,
+      "mxn_kwh": 3.27,
+      "mxn_m2": 27.1
+     }
+    },
+    "z": {
+     "carga_kwh": 50184,
+     "enfriamiento_kwh": 14338,
+     "total_kwh": 57884,
+     "pico_kw": 338.1,
+     "pico_hora": "2027-01-15T14:00",
+     "pico_w_m2": 52.2,
+     "medio_kw": 42.7,
+     "w_m2": 11.63,
+     "kwh_m2": 8.93,
+     "horas_frio": 259,
+     "desglose": {
+      "solar": 34916,
+      "envolvente": -20709,
+      "interno": 46154,
+      "ventilacion": -10176
+     },
+     "costo": {
+      "enfriamiento": 67147,
+      "total": 196094,
+      "mxn_kwh": 3.39,
+      "mxn_m2": 30.3
+     }
+    }
+   },
+   "estandar_costo": [
+    141885,
+    189181
+   ]
+  },
+  {
+   "id": "canicula",
+   "etiqueta": "Canícula",
+   "inicio": "2027-07-15",
+   "fin": "2027-08-23",
+   "dias": 40.0,
+   "corrida": "caso_20270729_1600",
+   "clima": {
+    "T": 29.4,
+    "T_max": 34.6,
+    "HR": 55.3,
+    "SR": 210.8
+   },
+   "estandar_kwh": [
+    53260,
+    71014
+   ],
+   "edificios": {
+    "x": {
+     "carga_kwh": 196028,
+     "enfriamiento_kwh": 56008,
+     "total_kwh": 106811,
+     "pico_kw": 620.7,
+     "pico_hora": "2027-07-15T15:00",
+     "pico_w_m2": 95.8,
+     "medio_kw": 142.9,
+     "w_m2": 17.17,
+     "kwh_m2": 16.48,
+     "horas_frio": 392,
+     "desglose": {
+      "solar": 30105,
+      "envolvente": 45892,
+      "interno": 69854,
+      "ventilacion": 50177
+     },
+     "costo": {
+      "enfriamiento": 189519,
+      "total": 345137,
+      "mxn_kwh": 3.23,
+      "mxn_m2": 53.3
+     }
+    },
+    "z": {
+     "carga_kwh": 234304,
+     "enfriamiento_kwh": 66944,
+     "total_kwh": 117747,
+     "pico_kw": 783.2,
+     "pico_hora": "2027-08-03T14:00",
+     "pico_w_m2": 120.9,
+     "medio_kw": 170.8,
+     "w_m2": 18.93,
+     "kwh_m2": 18.17,
+     "horas_frio": 392,
+     "desglose": {
+      "solar": 71850,
+      "envolvente": 42424,
+      "interno": 69854,
+      "ventilacion": 50177
+     },
+     "costo": {
+      "enfriamiento": 233420,
+      "total": 389039,
+      "mxn_kwh": 3.3,
+      "mxn_m2": 60.0
+     }
+    }
+   },
+   "estandar_costo": [
+    173894,
+    231861
+   ]
+  }
+ ]
+}

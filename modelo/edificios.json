@@ -1,0 +1,661 @@
+{
+ "edificios": [
+  {
+   "nombre": "Arena Borregos",
+   "corto": "Arena Borregos",
+   "anio": "1995",
+   "tipo": "Fitness",
+   "niveles": 3,
+   "altura": "9.6 m",
+   "objetos": [
+    "arena"
+   ],
+   "anio_num": 1995,
+   "ocultar": [
+    "arena"
+   ],
+   "pos": [
+    239.56,
+    25.23,
+    410.0
+   ],
+   "planta_m": [
+    66.9,
+    59.0
+   ]
+  },
+  {
+   "nombre": "Aulas I",
+   "corto": "Aulas I",
+   "anio": "1947",
+   "tipo": "Education",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0669"
+   ],
+   "anio_num": 1947,
+   "ocultar": [
+    "edificio_0669"
+   ],
+   "pos": [
+    -81.99,
+    21.12,
+    254.16
+   ],
+   "planta_m": [
+    143.4,
+    23.3
+   ]
+  },
+  {
+   "nombre": "Aulas II",
+   "corto": "Aulas II",
+   "anio": "1960s",
+   "tipo": "Education",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0668"
+   ],
+   "anio_num": 1960,
+   "ocultar": [
+    "edificio_0668"
+   ],
+   "pos": [
+    -84.41,
+    18.56,
+    371.8
+   ],
+   "planta_m": [
+    143.8,
+    27.6
+   ]
+  },
+  {
+   "nombre": "Aulas III",
+   "corto": "Aulas III",
+   "anio": "1950s",
+   "tipo": "Education",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0656"
+   ],
+   "anio_num": 1950,
+   "ocultar": [
+    "edificio_0656"
+   ],
+   "pos": [
+    -77.97,
+    21.12,
+    493.31
+   ],
+   "planta_m": [
+    149.7,
+    17.1
+   ]
+  },
+  {
+   "nombre": "Aulas IV",
+   "corto": "Aulas IV",
+   "anio": "1970s",
+   "tipo": "Education",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0706"
+   ],
+   "anio_num": 1970,
+   "ocultar": [
+    "edificio_0706"
+   ],
+   "pos": [
+    36.63,
+    21.12,
+    536.11
+   ],
+   "planta_m": [
+    110.1,
+    111.7
+   ]
+  },
+  {
+   "nombre": "Aulas VII",
+   "corto": "Aulas VII",
+   "anio": "1992",
+   "tipo": "Education",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0661"
+   ],
+   "anio_num": 1992,
+   "ocultar": [
+    "edificio_0661"
+   ],
+   "pos": [
+    130.28,
+    21.12,
+    531.7
+   ],
+   "planta_m": [
+    95.2,
+    101.7
+   ]
+  },
+  {
+   "nombre": "BiblioTEC",
+   "corto": "BiblioTEC",
+   "anio": "2017",
+   "tipo": "Library",
+   "niveles": 6,
+   "altura": "19.2 m",
+   "objetos": [
+    "biblio"
+   ],
+   "anio_num": 2017,
+   "ocultar": [
+    "biblio"
+   ],
+   "pos": [
+    -30.0,
+    37.95,
+    446.81
+   ],
+   "planta_m": [
+    79.6,
+    48.1
+   ]
+  },
+  {
+   "nombre": "Centrales",
+   "corto": "Centrales",
+   "anio": "1947",
+   "tipo": "Education",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0694",
+    "edificio_0696",
+    "edificio_0697",
+    "edificio_0698"
+   ],
+   "anio_num": 1947,
+   "ocultar": [
+    "edificio_0694",
+    "edificio_0696",
+    "edificio_0697",
+    "edificio_0698"
+   ],
+   "pos": [
+    31.11,
+    14.08,
+    310.2
+   ],
+   "planta_m": [
+    101.9,
+    65.9
+   ]
+  },
+  {
+   "nombre": "Centro de Biotecnología FEMSA",
+   "corto": "Biotecnología FEMSA",
+   "anio": "2007",
+   "tipo": "Education",
+   "niveles": 5,
+   "altura": "16 m",
+   "objetos": [
+    "edificio_0687"
+   ],
+   "anio_num": 2007,
+   "ocultar": [
+    "edificio_0687"
+   ],
+   "pos": [
+    1.31,
+    24.64,
+    220.49
+   ],
+   "planta_m": [
+    56.5,
+    62.0
+   ]
+  },
+  {
+   "nombre": "Centro de Congresos",
+   "corto": "Centro de Congresos",
+   "anio": "1993",
+   "tipo": "Education",
+   "niveles": 2,
+   "altura": "6.4 m",
+   "objetos": [
+    "edificio_0660"
+   ],
+   "anio_num": 1993,
+   "ocultar": [
+    "edificio_0660"
+   ],
+   "pos": [
+    -41.56,
+    14.08,
+    643.55
+   ],
+   "planta_m": [
+    124.1,
+    56.0
+   ]
+  },
+  {
+   "nombre": "Centro de Tecnología Avanzada para la Producción (CETEC)",
+   "corto": "CETEC",
+   "anio": "1989",
+   "tipo": "Education",
+   "niveles": 8,
+   "altura": "25.6 m",
+   "objetos": [
+    "cetec"
+   ],
+   "anio_num": 1989,
+   "ocultar": [
+    "cetec"
+   ],
+   "pos": [
+    -160.28,
+    45.93,
+    443.2
+   ],
+   "planta_m": [
+    76.1,
+    34.2
+   ]
+  },
+  {
+   "nombre": "Centro Deportivo Borregos II",
+   "corto": "Deportivo Borregos II",
+   "anio": "2018",
+   "tipo": "Fitness",
+   "niveles": 1,
+   "altura": "3.2 m",
+   "objetos": [
+    "edificio_0625"
+   ],
+   "anio_num": 2018,
+   "ocultar": [
+    "edificio_0625",
+    "edificio_0623"
+   ],
+   "pos": [
+    455.14,
+    14.08,
+    520.37
+   ],
+   "planta_m": [
+    29.3,
+    78.4
+   ]
+  },
+  {
+   "nombre": "Centro Deportivo Escamilla",
+   "corto": "Deportivo Escamilla",
+   "anio": "–",
+   "tipo": "Fitness",
+   "niveles": 1,
+   "altura": "3.2 m",
+   "objetos": [
+    "edificio_0555"
+   ],
+   "anio_num": null,
+   "ocultar": [
+    "edificio_0555"
+   ],
+   "pos": [
+    198.66,
+    14.08,
+    -351.96
+   ],
+   "planta_m": [
+    99.3,
+    94.6
+   ]
+  },
+  {
+   "nombre": "Centro Internacional de Aprendizaje Avanzado (CIAP)",
+   "corto": "CIAP",
+   "anio": "2003",
+   "tipo": "Education",
+   "niveles": 6,
+   "altura": "19.2 m",
+   "objetos": [
+    "edificio_0689"
+   ],
+   "anio_num": 2003,
+   "ocultar": [
+    "edificio_0689"
+   ],
+   "pos": [
+    -38.14,
+    28.16,
+    157.42
+   ],
+   "planta_m": [
+    205.4,
+    49.9
+   ]
+  },
+  {
+   "nombre": "Centro para el Desarrollo Sostenible (CEDES)",
+   "corto": "CEDES",
+   "anio": "1993",
+   "tipo": "Education",
+   "niveles": 17,
+   "altura": "75 m",
+   "objetos": [
+    "cedes"
+   ],
+   "anio_num": 1993,
+   "ocultar": [
+    "cedes"
+   ],
+   "pos": [
+    -350.0,
+    78.79,
+    30.0
+   ],
+   "planta_m": [
+    52.0,
+    48.0
+   ]
+  },
+  {
+   "nombre": "Domo Cultural",
+   "corto": "Domo Cultural",
+   "anio": "–",
+   "tipo": "Arts",
+   "niveles": 1,
+   "altura": "3.2 m",
+   "objetos": [
+    "edificio_0693"
+   ],
+   "anio_num": null,
+   "ocultar": [
+    "edificio_0693"
+   ],
+   "pos": [
+    111.61,
+    10.56,
+    310.38
+   ],
+   "planta_m": [
+    44.7,
+    37.9
+   ]
+  },
+  {
+   "nombre": "Espacio de Reflexión",
+   "corto": "Espacio de Reflexión",
+   "anio": "2020",
+   "tipo": "Arts",
+   "niveles": 2,
+   "altura": "6.4 m",
+   "objetos": [
+    "edificio_0671"
+   ],
+   "anio_num": 2020,
+   "ocultar": [
+    "edificio_0671"
+   ],
+   "pos": [
+    -133.98,
+    14.08,
+    197.83
+   ],
+   "planta_m": [
+    34.4,
+    19.1
+   ]
+  },
+  {
+   "nombre": "Estacionamiento E1",
+   "corto": "Estacionamiento E1",
+   "anio": "–",
+   "tipo": "Parking",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0002"
+   ],
+   "anio_num": null,
+   "ocultar": [
+    "edificio_0002"
+   ],
+   "pos": [
+    160.83,
+    21.12,
+    108.34
+   ],
+   "planta_m": [
+    202.2,
+    150.2
+   ]
+  },
+  {
+   "nombre": "Estacionamiento E2",
+   "corto": "Estacionamiento E2",
+   "anio": "2021",
+   "tipo": "Parking",
+   "niveles": 9,
+   "altura": "28.8 m",
+   "objetos": [
+    "edificio_0595"
+   ],
+   "anio_num": 2021,
+   "ocultar": [
+    "edificio_0595"
+   ],
+   "pos": [
+    -319.35,
+    23.04,
+    -99.27
+   ],
+   "planta_m": [
+    98.3,
+    102.7
+   ]
+  },
+  {
+   "nombre": "Estadio Borregos",
+   "corto": "Estadio Borregos",
+   "anio": "2019",
+   "tipo": "Fitness",
+   "niveles": 2,
+   "altura": "6.4 m",
+   "objetos": [
+    "estadio"
+   ],
+   "anio_num": 2019,
+   "ocultar": [
+    "estadio",
+    "Cancha_Americano"
+   ],
+   "pos": [
+    439.22,
+    48.89,
+    -61.44
+   ],
+   "planta_m": [
+    153.0,
+    146.5
+   ]
+  },
+  {
+   "nombre": "Expedition FEMSA",
+   "corto": "Expedition FEMSA",
+   "anio": "2024",
+   "tipo": "Interdisciplinary",
+   "niveles": 7,
+   "altura": "22.4 m",
+   "objetos": [
+    "expedition"
+   ],
+   "anio_num": 2024,
+   "ocultar": [
+    "expedition"
+   ],
+   "pos": [
+    -300.0,
+    37.4,
+    202.9
+   ],
+   "planta_m": [
+    45.5,
+    43.7
+   ]
+  },
+  {
+   "nombre": "Hub de Innovación y Emprendimiento",
+   "corto": "Hub de Innovación",
+   "anio": "2026",
+   "tipo": "Interdisciplinary",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "expedition.001"
+   ],
+   "anio_num": 2026,
+   "ocultar": [
+    "expedition.001"
+   ],
+   "pos": [
+    -235.0,
+    37.4,
+    82.9
+   ],
+   "planta_m": [
+    45.5,
+    43.7
+   ]
+  },
+  {
+   "nombre": "Pabellón La Carreta",
+   "corto": "La Carreta",
+   "anio": "2017",
+   "tipo": "Events venue",
+   "niveles": 1,
+   "altura": "3.2 m",
+   "objetos": [
+    "edificio_0699"
+   ],
+   "anio_num": 2017,
+   "ocultar": [
+    "edificio_0699"
+   ],
+   "pos": [
+    -63.68,
+    10.56,
+    310.49
+   ],
+   "planta_m": [
+    54.3,
+    30.1
+   ]
+  },
+  {
+   "nombre": "Rectoría del Tecnológico de Monterrey",
+   "corto": "Rectoría",
+   "anio": "1954",
+   "tipo": "Office",
+   "niveles": 4,
+   "altura": "12.8 m",
+   "objetos": [
+    "edificio_0665"
+   ],
+   "anio_num": 1954,
+   "ocultar": [
+    "edificio_0665"
+   ],
+   "pos": [
+    -156.72,
+    21.12,
+    310.17
+   ],
+   "planta_m": [
+    52.8,
+    36.9
+   ]
+  },
+  {
+   "nombre": "Residencias I",
+   "corto": "Residencias I",
+   "anio": "2025",
+   "tipo": "Dormitory",
+   "niveles": 7,
+   "altura": "22.4 m",
+   "objetos": [
+    "edificio_0585"
+   ],
+   "anio_num": 2025,
+   "ocultar": [
+    "edificio_0585"
+   ],
+   "pos": [
+    -121.37,
+    31.68,
+    -15.51
+   ],
+   "planta_m": [
+    85.6,
+    73.5
+   ]
+  },
+  {
+   "nombre": "Residencias III",
+   "corto": "Residencias III",
+   "anio": "2003",
+   "tipo": "Dormitory",
+   "niveles": 8,
+   "altura": "25.6 m",
+   "objetos": [
+    "edificio_0580"
+   ],
+   "anio_num": 2003,
+   "ocultar": [
+    "edificio_0580"
+   ],
+   "pos": [
+    -116.8,
+    35.2,
+    54.24
+   ],
+   "planta_m": [
+    71.4,
+    47.4
+   ]
+  },
+  {
+   "nombre": "Wellness Center",
+   "corto": "Wellness Center",
+   "anio": "2021",
+   "tipo": "Fitness",
+   "niveles": 5,
+   "altura": "16 m",
+   "objetos": [
+    "edificio_0597"
+   ],
+   "anio_num": 2021,
+   "ocultar": [
+    "edificio_0597",
+    "edificio_0596"
+   ],
+   "pos": [
+    242.98,
+    24.64,
+    158.31
+   ],
+   "planta_m": [
+    120.1,
+    128.0
+   ]
+  }
+ ]
+}

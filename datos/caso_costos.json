@@ -1,0 +1,224 @@
+{
+ "generado": "2026-11-04 13:45",
+ "tasa": 0.0493,
+ "factor": 1.0792,
+ "edificios": {
+  "x": {
+   "filas": [
+    {
+     "material": "Concrete",
+     "pct": 23.895833333333314,
+     "area": 619.4,
+     "precio": 270.68,
+     "total": 167653,
+     "desgaste": [
+      11.25,
+      15.93,
+      19.53,
+      22.57,
+      25.26
+     ],
+     "anios": [
+      19788,
+      29411,
+      37829,
+      45877,
+      53874
+     ],
+     "estados": [
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor"
+     ],
+     "accion": "Protective Sealer"
+    },
+    {
+     "material": "Metal",
+     "pct": 23.58333333333334,
+     "area": 611.3,
+     "precio": 114.48,
+     "total": 69979,
+     "desgaste": [
+      2.55,
+      3.64,
+      4.47,
+      5.17,
+      5.77
+     ],
+     "anios": [
+      1872,
+      2807,
+      3618,
+      4384,
+      5137
+     ],
+     "estados": [
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor"
+     ],
+     "accion": "Anticorrosive Coating"
+    },
+    {
+     "material": "Glass",
+     "pct": 28.56250000000002,
+     "area": 740.3,
+     "precio": 28.91,
+     "total": 21404,
+     "desgaste": null,
+     "anios": [
+      67378,
+      138077,
+      212262,
+      290104,
+      371784
+     ],
+     "estados": [
+      "Maintenance",
+      "Maintenance",
+      "Maintenance",
+      "Maintenance",
+      "Maintenance"
+     ],
+     "accion": "Cleaning, 3 per Year"
+    },
+    {
+     "material": "Paint",
+     "pct": 23.958333333333325,
+     "area": 621.0,
+     "precio": 89.51,
+     "total": 55584,
+     "desgaste": [
+      27.05,
+      30.94,
+      31.5,
+      31.59,
+      31.6
+     ],
+     "anios": [
+      15777,
+      18936,
+      20231,
+      21283,
+      22341
+     ],
+     "estados": [
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor"
+     ],
+     "accion": "Repainting"
+    }
+   ],
+   "total": 314620,
+   "anios": [
+    104815,
+    189231,
+    273940,
+    361648,
+    453136
+   ],
+   "criticos": []
+  },
+  "z": {
+   "filas": [
+    {
+     "material": "Concrete",
+     "pct": 8.333333333333334,
+     "area": 216.0,
+     "precio": 270.68,
+     "total": 58466,
+     "desgaste": [
+      11.25,
+      15.93,
+      19.53,
+      22.57,
+      25.26
+     ],
+     "anios": [
+      6901,
+      10256,
+      13192,
+      15999,
+      18787
+     ],
+     "estados": [
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor"
+     ],
+     "accion": "Protective Sealer"
+    },
+    {
+     "material": "Metal",
+     "pct": 22.91666666666666,
+     "area": 594.0,
+     "precio": 114.48,
+     "total": 68000,
+     "desgaste": [
+      2.55,
+      3.64,
+      4.48,
+      5.17,
+      5.77
+     ],
+     "anios": [
+      1820,
+      2729,
+      3517,
+      4262,
+      4993
+     ],
+     "estados": [
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor",
+      "Monitor"
+     ],
+     "accion": "Anticorrosive Coating"
+    },
+    {
+     "material": "Glass",
+     "pct": 68.75000000000001,
+     "area": 1782.0,
+     "precio": 28.91,
+     "total": 51519,
+     "desgaste": null,
+     "anios": [
+      162178,
+      332352,
+      510915,
+      698281,
+      894885
+     ],
+     "estados": [
+      "Maintenance",
+      "Maintenance",
+      "Maintenance",
+      "Maintenance",
+      "Maintenance"
+     ],
+     "accion": "Cleaning, 3 per Year"
+    }
+   ],
+   "total": 177985,
+   "anios": [
+    170899,
+    345337,
+    527624,
+    718542,
+    918665
+   ],
+   "criticos": []
+  }
+ }
+}

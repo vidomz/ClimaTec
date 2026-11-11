@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" class="pagina-historico pagina-about">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ClimaTec</title>
+  <link rel="icon" href="data:,">
+  <meta name="description" content="About ClimaTec: weather conditions and air quality of Distrito Tec, Tecnológico de Monterrey.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/visor.css?v=20261111a">
+  <link rel="stylesheet" href="css/historico.css?v=20261021b">
+  <link rel="stylesheet" href="css/about.css?v=20261106d">
+</head>
+<body>
+  <header class="encabezado">
+    <a class="logo logo-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+    <nav class="pestanas" aria-label="Secciones">
+      <a class="pestana" href="ClimaTec_index.html">Tec de Monterrey</a>
+      <a class="pestana" href="ClimaTec_about.html" aria-current="page">About</a>
+      <a class="pestana" href="ClimaTec_historical.html">Historical</a>
+      <a class="pestana" href="ClimaTec_realtime.html">Real-Time</a>
+      <a class="pestana" href="ClimaTec_prediction.html">Prediction</a>
+    </nav>
+    <a class="logo logo-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png"
+         alt="Tecnológico de Monterrey · Escuela de Ingeniería y Ciencias"></a>
+  </header>
+
+  <main class="tablero">
+    <h1 class="solo-lector">About ClimaTec</h1>
+
+    <section class="portada" id="portada" aria-roledescription="carousel" aria-label="Views of the digital twin of Distrito Tec">
+      <div class="portada-imagenes">
+        <img class="activa" src="assets/about/gemelo_1.webp" alt="" decoding="async">
+        <img src="assets/about/gemelo_2.webp" alt="" decoding="async">
+        <img src="assets/about/gemelo_3.webp" alt="" decoding="async">
+        <img src="assets/about/gemelo_4.webp" alt="" decoding="async">
+        <img src="assets/about/gemelo_5.webp" alt="" decoding="async">
+      </div>
+      <img class="portada-logo" src="assets/logos/climatec_blanco.png" alt="ClimaTec">
+      <div class="portada-puntos" id="portada-puntos" role="group" aria-label="Choose a view"></div>
+    </section>
+
+    <div class="about-fila">
+      <section class="tarjeta about-variables" aria-labelledby="t-variables">
+        <h2 class="about-titulo" id="t-variables">Variables and Units</h2>
+        <p class="about-sub">Standardized units used throughout ClimaTec.</p>
+
+        <div class="unidades-columnas">
+          <div>
+            <h3 class="about-grupo">Meteorology</h3>
+            <dl class="lista-unidades">
+              <div><dt>Air temperature <span class="simbolo">T<sub>air</sub></span></dt><dd>°C</dd></div>
+              <div><dt>Relative humidity <span class="simbolo">H<sub>R</sub></span></dt><dd>%</dd></div>
+              <div><dt>Wind speed <span class="simbolo">W<sub>s</sub></span></dt><dd>km·h⁻¹</dd></div>
+              <div><dt>Wind direction <span class="simbolo">W<sub>d</sub></span></dt><dd>°</dd></div>
+              <div><dt>Solar radiation <span class="simbolo">S<sub>R</sub></span></dt><dd>W·m⁻²</dd></div>
+              <div><dt>Atmospheric pressure <span class="simbolo">P<sub>atm</sub></span></dt><dd>hPa</dd></div>
+              <div><dt>Heat index <span class="simbolo">HI</span></dt><dd>°C</dd></div>
+            </dl>
+          </div>
+          <div>
+            <h3 class="about-grupo">Air Quality</h3>
+            <dl class="lista-unidades">
+              <div><dt>PM<sub>10</sub> <span class="simbolo">Coarse Particles</span></dt><dd>µg·m⁻³</dd></div>
+              <div><dt>PM<sub>2.5</sub> <span class="simbolo">Fine Particles</span></dt><dd>µg·m⁻³</dd></div>
+              <div><dt>O<sub>3</sub> <span class="simbolo">Ozone</span></dt><dd>ppm</dd></div>
+              <div><dt>NO<sub>2</sub> <span class="simbolo">Nitrogen Dioxide</span></dt><dd>ppm</dd></div>
+              <div><dt>SO<sub>2</sub> <span class="simbolo">Sulfur Dioxide</span></dt><dd>ppm</dd></div>
+              <div><dt>CO <span class="simbolo">Carbon Monoxide</span></dt><dd>ppm</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-objetivo" aria-labelledby="t-objetivo">
+        <h2 class="about-titulo" id="t-objetivo">Objective</h2>
+        <p>Monterrey lives with heat and poor air quality at the same time, and a monitoring station only describes the spot where it stands.
+          ClimaTec offers an accessible platform with reliable information on the urban climate and air quality within the Distrito Tec.</p>
+        <h2 class="about-titulo">Hypothesis</h2>
+        <p>Artificial intelligence represents a tool for replicating the physics involved in urban climate and in pollutant dispersion, based on
+          computational fluid dynamics, and represented in an urban digital twin.</p>
+      </section>
+    </div>
+
+    <hr class="linea-climatec" aria-hidden="true">
+
+    <div class="metodo-fila">
+      <div class="metodo-izq">
+
+        <section class="metodo" aria-labelledby="t-metodo">
+          <h2 class="about-titulo" id="t-metodo">Methodology</h2>
+          <figure class="flujo">
+
+            <ol class="flujo-pasos">
+              <li>
+                <span class="caja">Historical Data</span>
+                <span class="paso-nota"><span>Data from<br>January 2005 to<br>June 2026</span></span>
+              </li>
+              <li>
+                <span class="caja">Real-Time Local API</span>
+                <span class="paso-nota"><span>Hourly records update</span></span>
+              </li>
+              <li>
+                <span class="llave">Data-driven</span>
+                <span class="caja">Temporal Forecasting</span>
+                <span class="paso-nota"><span>Harmonic functions and Chronos-2</span></span>
+              </li>
+              <li>
+                <span class="caja">Future Conditions</span>
+                <span class="paso-nota"><span>Prediction up to<br>5 years from today</span></span>
+              </li>
+              <li>
+                <span class="llave">Physics-based</span>
+                <span class="caja">CFD + ROM</span>
+                <span class="paso-nota"><span>85 CFD hours,<br>about 43 ms per ROM</span></span>
+              </li>
+              <li>
+                <span class="caja">3D Spatial Conditions</span>
+                <span class="paso-nota"><span>Meteorology and air quality<br>at pedestrian level</span></span>
+              </li>
+            </ol>
+          </figure>
+        </section>
+
+        <section class="pasos-desarrollo" aria-labelledby="t-pasos">
+          <h2 class="about-titulo" id="t-pasos">Development Steps</h2>
+          <ol class="desarrollo-lista">
+            <li>
+              <a class="desarrollo-paso" href="ClimaTec_historical.html">
+                <span class="desarrollo-num">Step 0 <span class="desarrollo-flecha" aria-hidden="true">→</span></span>
+                <b>Historical Evaluation</b>
+                <small>What happened, from 2005 to 2026</small>
+              </a>
+            </li>
+            <li>
+              <a class="desarrollo-paso" href="ClimaTec_realtime.html">
+                <span class="desarrollo-num">Step 1 <span class="desarrollo-flecha" aria-hidden="true">→</span></span>
+                <b>Real-Time Projection</b>
+                <small>What is happening, hour by hour</small>
+              </a>
+            </li>
+            <li>
+              <a class="desarrollo-paso" href="ClimaTec_prediction.html">
+                <span class="desarrollo-num">Step 2 <span class="desarrollo-flecha" aria-hidden="true">→</span></span>
+                <b>Future Prediction</b>
+                <small>What could happen, next 5 years</small>
+              </a>
+            </li>
+          </ol>
+        </section>
+      </div>
+
+      <section class="tarjeta herramientas-tarjeta" aria-labelledby="t-herramientas">
+        <h3 class="about-titulo" id="t-herramientas">Tools</h3>
+        <ul class="herramientas-lista">
+          <li><span class="herramienta-logo"><img class="logo-ansys" src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/ansys.svg" alt="Ansys" loading="lazy"></span><span><small>CFD simulation</small></span></li>
+          <li><span class="herramienta-logo"><img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/python/python-original.svg" alt="" loading="lazy"></span><span><b>Python</b><small>Model training</small></span></li>
+          <li><span class="herramienta-logo"><img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/github/github-original.svg" alt="" loading="lazy"></span><span><b>GitHub</b><small>Code and data storage</small></span></li>
+          <li><span class="herramienta-logo"><img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/threejs/threejs-original.svg" alt="" loading="lazy"></span><span><b>three.js</b><small>Web page</small></span></li>
+        </ul>
+        <p class="fuente-datos">Logos are shown for illustrative purposes only and are trademarks of their respective owners.</p>
+      </section>
+    </div>
+
+    <footer class="pie">
+      <a class="pie-logo pie-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+      <a class="pie-logo pie-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png" alt="Tecnológico de Monterrey"></a>
+    </footer>
+  </main>
+
+  <script type="module" src="js/about.js?v=20261020a"></script>
+</body>
+</html>

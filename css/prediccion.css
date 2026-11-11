@@ -1,0 +1,149 @@
+.pred-caso > .about-titulo { font-size: 26px; letter-spacing: -0.2px; }
+
+.caso-fila { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: stretch; }
+.caso-figura { position: relative; margin: 0; padding: 0; overflow: hidden; }
+.caso-figura img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.caso-tarjeta-img {
+  position: absolute; right: 12px; bottom: 12px; width: 178px; padding: 11px 12px 7px;
+  background: rgba(255, 255, 255, 0.95); border-radius: 9px; box-shadow: 0 6px 20px rgba(10, 25, 60, 0.22); overflow: hidden;
+}
+.caso-tarjeta-img::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px;
+  background: linear-gradient(90deg, var(--naranja), var(--amarillo) 22%, var(--verde) 42%,
+                                     var(--celeste) 70%, var(--azul-clima) 88%, var(--azul-tec));
+}
+.caso-tarjeta-nombre { margin: 0; font-size: 12.5px; font-weight: 700; color: var(--texto); }
+.caso-sub { margin: 1px 0 0; font-size: 10.5px; color: var(--texto-suave); }
+.caso-barra { display: flex; height: 7px; margin: 7px 0 4px; border-radius: 4px; overflow: hidden; }
+.caso-materiales { list-style: none; margin: 0; padding: 0; font-size: 11px; }
+.caso-materiales li { display: flex; align-items: center; gap: 7px; padding: 2px 0; border-bottom: 1px solid var(--rejilla); }
+.caso-materiales li:last-child { border-bottom: 0; }
+.caso-materiales i { width: 9px; height: 9px; border-radius: 2px; border: 1px solid rgba(0, 0, 0, 0.18); }
+.caso-materiales b { margin-left: auto; font-variant-numeric: tabular-nums; }
+.caso-marco { aspect-ratio: 4 / 3; }
+.caso-nota { margin: 0; font-size: 11.5px; line-height: 1.5; color: var(--texto-suave); }
+.caso-control {
+  display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.35fr) minmax(0, 1.2fr); gap: 26px;
+  padding: 14px 18px 15px; align-items: center;
+}
+.caso-control .rom-etiqueta { display: block; margin: 0 0 6px; }
+.caso-fecha input[type="range"] { width: 100%; margin: 4px 0 2px; accent-color: var(--azul-tec); }
+.caso-fecha input[type="range"]:disabled { opacity: 1; }
+.caso-fecha-marcas { display: flex; justify-content: space-between; gap: 8px; font-size: 11px; line-height: 1.35; color: var(--texto-suave); }
+.caso-fecha-marcas span:first-child { color: var(--azul-tec); font-weight: 600; }
+.caso-condiciones { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.caso-datos { flex: 1 1 230px; min-width: 0; }
+.caso-meteo { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 14px; margin: 0; padding: 0; font-size: 12px; }
+.caso-meteo li { display: flex; align-items: baseline; gap: 6px; white-space: nowrap; }
+.caso-meteo span { color: var(--texto-suave); min-width: 34px; }
+.caso-meteo sub, .caso-control .rom-etiqueta sub { font-size: 0.72em; line-height: 0; }
+.caso-vista { flex: none; }
+.caso-vista .filtros { display: flex; flex-direction: column; }
+.caso-vista .filtros button { padding: 5px 14px; font-size: 12px; }
+.caso-escalas .rom-escala + .rom-etiqueta { margin-top: 12px; }
+.caso-barra-ts {
+  background: linear-gradient(90deg, var(--nivel-1) 0 17%, var(--nivel-2) 23% 37%, var(--nivel-3) 43% 57%,
+    var(--nivel-4) 63% 77%, var(--nivel-5) 83% 100%);
+}
+.caso-cortes-ts { position: relative; display: block; height: 15px; }
+.caso-cortes-ts span { position: absolute; top: 0; transform: translateX(-50%); }
+.caso-extremos { margin-top: 0; font-size: 10.5px; font-weight: 500; color: var(--texto-suave); }
+.caso-subtitulo { margin: 8px 0 -4px; font-size: 16px; font-weight: 600; color: var(--texto); }
+.caso-pct { margin-left: 6px; font-weight: 500; color: var(--texto-suave); }
+.caso-subtitulo-fila { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 8px 0 -4px; }
+.caso-subtitulo-fila .caso-subtitulo { margin: 0; }
+.caso-leyenda { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; font-size: 12px; color: var(--texto-suave); }
+.caso-leyenda span { display: inline-flex; align-items: center; gap: 6px; }
+.caso-leyenda i { width: 16px; height: 2px; border-radius: 2px; }
+.caso-leyenda-edificio { font-weight: 600; color: var(--texto); }
+.caso-leyenda-edificio i { height: 3px; }
+.caso-grafica-edificio { padding: 12px 14px 10px; min-width: 0; }
+.caso-grafica-enc { display: flex; align-items: center; gap: 12px; }
+.caso-grafica-enc > div { margin-right: auto; min-width: 0; }
+.caso-grafica-enc .rom-etiqueta { display: block; margin: 0; }
+.caso-select { width: auto; min-width: 140px; margin: 0; }
+.caso-grafica-sub { margin: 1px 0 0; font-size: 11px; line-height: 1.3; color: var(--texto-suave); }
+.caso-grafica-sub sub { font-size: 0.72em; line-height: 0; }
+.caso-grafica-dato { margin: 0; font-size: 19px; line-height: 1.1; font-weight: 600; white-space: nowrap; color: var(--azul-tec-oscuro); font-variant-numeric: tabular-nums; }
+.caso-grafica-dato small { margin-left: 3px; font-size: 11px; font-weight: 500; color: var(--texto-suave); }
+.caso-grafica-caja { margin-top: 6px; }
+.caso-grafica-caja svg { display: block; width: 100%; height: auto; cursor: pointer; }
+.caso-linea { fill: none; stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+.caso-linea-edificio { stroke-width: 2.5; }
+.caso-fin { font-size: 11px; font-weight: 600; fill: var(--texto); font-variant-numeric: tabular-nums; }
+.caso-umbral { stroke: var(--texto-suave); stroke-width: 1; stroke-dasharray: 4 3; }
+.caso-rejilla-menor { stroke: #b4bdcb; stroke-width: 1; stroke-dasharray: 1 3; shape-rendering: crispEdges; }
+.caso-marca { stroke: var(--azul-tec); stroke-width: 1; }
+.caso-cruz { stroke: var(--texto-suave); stroke-width: 1; stroke-dasharray: 2 2; }
+.caso-tip {
+  position: fixed; z-index: 40; pointer-events: none; min-width: 150px; padding: 7px 10px; font-size: 12px;
+  background: rgba(255, 255, 255, 0.97); border: 1px solid #c9d1de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+.caso-tip[hidden] { display: none; }
+.caso-tip p { margin: 0 0 4px; font-weight: 600; }
+.caso-tip ul { list-style: none; margin: 0; padding: 0; }
+.caso-tip li { display: flex; align-items: center; gap: 6px; line-height: 1.5; }
+.caso-tip li b { margin-left: auto; padding-left: 12px; font-variant-numeric: tabular-nums; }
+.caso-tip i { width: 9px; height: 9px; border-radius: 2px; }
+.caso-tip-edificio { font-weight: 600; }
+.caso-costos { padding: 12px 11px 10px; min-width: 0; }
+.caso-costos .rom-etiqueta { display: block; margin: 0; }
+.caso-costo-enc { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 6px; }
+.caso-estado { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 600; white-space: nowrap; color: var(--texto); }
+.caso-estado i { width: 8px; height: 8px; border-radius: 50%; }
+.caso-estado[data-estado="Monitor"] i { background: var(--nivel-1); }
+.caso-estado[data-estado="Maintenance"] i { background: var(--nivel-3); }
+.caso-estado[data-estado="Critical"] i { background: var(--nivel-4); }
+.caso-nota .caso-estado { display: inline; font-size: inherit; font-weight: 700; }
+.caso-nota .caso-estado i { display: inline-block; margin-right: 4px; }
+.caso-costo-tabla td .caso-estado { display: flex; justify-content: flex-end; margin-top: 2px; font-size: 9.5px; font-weight: 500; color: var(--texto-suave); }
+.caso-costo-tabla { width: 100%; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
+.caso-costo-tabla th, .caso-costo-tabla td { padding: 5px 3px; text-align: right; white-space: nowrap; font-weight: 400; }
+.caso-costo-tabla thead th { font-size: 11px; font-weight: 600; color: var(--texto-suave); border-bottom: 1px solid var(--borde); }
+.caso-costo-tabla tbody tr { border-bottom: 1px solid var(--rejilla); }
+.caso-costo-tabla th:first-child { text-align: left; white-space: normal; }
+.caso-costo-material { display: flex; align-items: center; gap: 6px; font-weight: 600; }
+.caso-costo-material i { width: 9px; height: 9px; border-radius: 2px; border: 1px solid rgba(0, 0, 0, 0.18); }
+.caso-costo-material b { font-weight: 500; color: var(--texto-suave); }
+.caso-costo-tabla small { display: block; margin-top: 1px; font-size: 10.5px; color: var(--texto-suave); }
+.caso-costo-tabla tfoot th, .caso-costo-tabla tfoot td { font-weight: 600; color: var(--azul-tec-oscuro); }
+.caso-costo-tabla tfoot small { font-size: 10px; font-weight: 400; line-height: 1.3; }
+#caso-energia-tabla tr > :first-child, #caso-energia-costo tr > :first-child,
+#caso-energia-tabla tr > :nth-child(5), #caso-energia-costo tr > :nth-child(5),
+#caso-energia-tabla thead tr:first-child > :nth-child(2), #caso-energia-costo thead tr:first-child > :nth-child(2) {
+  border-right: 1px solid var(--borde); padding-right: 8px;
+}
+#caso-energia-tabla tr > :nth-child(2), #caso-energia-costo tr > :nth-child(2),
+#caso-energia-tabla tr > :nth-child(6), #caso-energia-costo tr > :nth-child(6) { padding-left: 8px; }
+#caso-energia-tabla thead th, #caso-energia-costo thead th { vertical-align: bottom; }
+#caso-energia-tabla thead small, #caso-energia-costo thead small, #caso-energia-tabla td small { font-size: 10px; font-weight: 400; line-height: 1.3; }
+.caso-energia-imagen { position: relative; }
+.caso-periodos { display: flex; }
+.caso-periodos button { padding: 5px 10px; font-size: 12px; }
+.caso-energia-tarjeta, .caso-verde-tarjeta {
+  position: absolute; left: 10px; bottom: 10px; z-index: 2; width: 214px; padding: 12px 12px 10px; overflow: hidden;
+  background: rgba(255, 255, 255, 0.96); border-radius: 10px; box-shadow: 0 6px 22px rgba(10, 25, 60, 0.22);
+}
+.caso-verde-tarjeta { left: auto; right: 10px; width: 232px; }
+.caso-energia-tarjeta::before, .caso-verde-tarjeta::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px;
+  background: linear-gradient(90deg, var(--naranja), var(--amarillo) 22%, var(--verde) 42%, var(--celeste) 70%, var(--azul-clima) 88%, var(--azul-tec));
+}
+.caso-energia-tarjeta .caso-tarjeta-nombre, .caso-verde-tarjeta .caso-tarjeta-nombre { margin: 0 0 5px; font-size: 13px; font-weight: 600; color: var(--texto); }
+.caso-energia-tarjeta ul, .caso-verde-tarjeta ul { list-style: none; margin: 0 0 6px; padding: 0; font-size: 11.5px; }
+.caso-energia-tarjeta li, .caso-verde-tarjeta li { display: flex; justify-content: space-between; gap: 8px; line-height: 1.6; color: var(--texto-suave); }
+.caso-energia-tarjeta b, .caso-verde-tarjeta b { font-weight: 600; white-space: nowrap; color: var(--azul-tec-oscuro); font-variant-numeric: tabular-nums; }
+#caso-energia-tabla thead tr:first-child th, #caso-energia-costo thead tr:first-child th { text-align: center; color: var(--texto); }
+.caso-verde-fecha { font-size: 12px; font-weight: 600; color: var(--texto-suave); }
+
+@media (max-width: 1060px) {
+  .caso-control { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .caso-fila, .caso-control { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .caso-costos { overflow-x: auto; }
+}
+@media (max-width: 460px) {
+}

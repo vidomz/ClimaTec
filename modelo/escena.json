@@ -1,0 +1,199 @@
+{
+ "origen": "version1.blend",
+ "exportado": "2026-10-05 18:15",
+ "georreferencia": {
+  "crs": "EPSG:3857",
+  "origen_3857": [
+   -11164166.579935087,
+   2956285.9467787575
+  ],
+  "origen_lonlat": [
+   -100.289414732,
+   25.653966465
+  ],
+  "ejes_gltf": "X_gltf = x_escena (este), Y_gltf = z_escena (arriba), Z_gltf = -y_escena (sur)",
+  "a_3857": "X_3857 = X_gltf + origen_3857[0];  Y_3857 = -Z_gltf + origen_3857[1]",
+  "a_lonlat": "lon = deg(X_3857 / 6378137);  lat = deg(atan(sinh(Y_3857 / 6378137)))",
+  "utm": {
+   "crs": "EPSG:32614",
+   "origen_local_cfd": [
+    370000.0,
+    2837000.0
+   ]
+  },
+  "z_suelo": 4.07,
+  "k_mercator": 1.11189,
+  "altura_real_m": "(Y_gltf - z_suelo) / k_mercator"
+ },
+ "limites": {
+  "min": [
+   -586.672,
+   -1.375,
+   -564.54
+  ],
+  "max": [
+   823.7,
+   75.787,
+   846.051
+  ]
+ },
+ "nivel_suelo": 4.07,
+ "camara_inicial": {
+  "posicion": [
+   -396.16,
+   402.923,
+   866.046
+  ],
+  "objetivo": [
+   -78.335,
+   4.07,
+   247.625
+  ]
+ },
+ "piso": {
+  "escala": 2.0,
+  "ancho": 2.4,
+  "alto": 2.4,
+  "mortero_tam": 0.06,
+  "mortero_suave": 0.03,
+  "sesgo": 0.0,
+  "color1": [
+   0.2715,
+   0.2715,
+   0.2682
+  ],
+  "color2": [
+   0.5769,
+   0.5769,
+   0.5697
+  ],
+  "color_mortero": [
+   0.045,
+   0.045,
+   0.047
+  ],
+  "color_colonia": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "mascara_origen": [
+   -545.0,
+   -830.0
+  ],
+  "mascara_tam": [
+   1380.0,
+   1380.0
+  ],
+  "emision": 0.35,
+  "rugosidad": 1.0,
+  "especular": 0.0
+ },
+ "pasto": {
+  "ruido_grande": {
+   "escala": 0.4,
+   "detalle": 4.0,
+   "rugosidad": 0.6
+  },
+  "rampa": [
+   [
+    0.3,
+    [
+     0.05,
+     0.115,
+     0.02
+    ]
+   ],
+   [
+    0.7,
+    [
+     0.075,
+     0.15,
+     0.025
+    ]
+   ],
+   [
+    0.85,
+    [
+     0.1,
+     0.165,
+     0.035
+    ]
+   ]
+  ],
+  "ruido_fino": {
+   "escala": 5.0,
+   "detalle": 8.0,
+   "rugosidad": 0.5
+  },
+  "overlay": 0.25,
+  "multiplica_voronoi": 0.2,
+  "rugosidad": 0.4089,
+  "especular": 0.15
+ },
+ "canchas": {
+  "Cesped_Futbol": {
+   "eje": 0,
+   "ancho": 5.5,
+   "valor": 1.35
+  },
+  "Cesped_Americano": {
+   "eje": 1,
+   "ancho": 4.572,
+   "valor": 1.25
+  }
+ },
+ "arboles": {
+  "glb": "arboles.glb",
+  "matrices": "arboles.bin",
+  "especies": [
+   {
+    "nombre": "frondoso_10m",
+    "inicio": 0,
+    "cantidad": 2786,
+    "lods": [
+     "frondoso_10m_L0",
+     "frondoso_10m_L1",
+     "frondoso_10m_L2",
+     "frondoso_10m_L3"
+    ],
+    "triangulos": [
+     7134,
+     3566,
+     356,
+     178
+    ]
+   },
+   {
+    "nombre": "irregular_15m",
+    "inicio": 2786,
+    "cantidad": 925,
+    "lods": [
+     "irregular_15m_L0",
+     "irregular_15m_L1",
+     "irregular_15m_L2",
+     "irregular_15m_L3"
+    ],
+    "triangulos": [
+     7134,
+     3566,
+     356,
+     178
+    ]
+   }
+  ]
+ },
+ "estadisticas": {
+  "objetos_fijos": 319,
+  "triangulos_fijos": 1322623,
+  "arboles": 3711,
+  "triangulos_originales_arboles": 24044466
+ },
+ "archivos": {
+  "arboles.bin": 237504,
+  "arboles.glb": 122720,
+  "distrito_tec.glb": 18477592,
+  "forest.exr": 552641,
+  "mascara_campus.png": 52339
+ }
+}

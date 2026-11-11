@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en" class="pagina-historico">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ClimaTec</title>
+  <link rel="icon" href="data:,">
+  <meta name="description" content="Expected weather and air quality of Distrito Tec for any date of the next 5 years, projected on its digital twin.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/visor.css?v=20261111a">
+  <link rel="stylesheet" href="css/historico.css?v=20261021b">
+  <link rel="stylesheet" href="css/about.css?v=20261105a">
+  <link rel="stylesheet" href="css/prediccion.css?v=20261111b">
+</head>
+
+<body data-rom="prediccion">
+  <header class="encabezado">
+    <a class="logo logo-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+    <nav class="pestanas" aria-label="Secciones">
+      <a class="pestana" href="ClimaTec_index.html">Tec de Monterrey</a>
+      <a class="pestana" href="ClimaTec_about.html">About</a>
+      <a class="pestana" href="ClimaTec_historical.html">Historical</a>
+      <a class="pestana" href="ClimaTec_realtime.html">Real-Time</a>
+      <a class="pestana" href="ClimaTec_prediction.html" aria-current="page">Prediction</a>
+    </nav>
+    <a class="logo logo-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png"
+         alt="Tecnológico de Monterrey · Escuela de Ingeniería y Ciencias"></a>
+  </header>
+
+  <main class="tablero pagina-prediccion">
+    <section class="rom pred-caso" aria-labelledby="t-caso">
+      <h2 class="about-titulo" id="t-caso">Case Study: New Building Proposal</h2>
+      <p class="about-sub">Analysis of surface temperature, materials degradation, energy consumption and vegetation effect.</p>
+
+      <div class="caso-fila">
+        <figure class="tarjeta caso-figura">
+          <img src="assets/caso/building_x.jpg?v=20261101a" width="1600" height="1200" loading="lazy"
+               alt="Building X behind Aulas IV, seen from the west-southwest: red-painted bands, horizontal windows and bronze metal strips">
+          <figcaption class="caso-tarjeta-img">
+            <p class="caso-tarjeta-nombre">Building X</p>
+            <p class="caso-sub">All four faces</p>
+            <div class="caso-composicion" data-edificio="x"></div>
+          </figcaption>
+        </figure>
+        <figure class="tarjeta caso-figura">
+          <img src="assets/caso/building_z.jpg?v=20261101a" width="1600" height="1200" loading="lazy"
+               alt="Building Z behind Aulas IV, seen from the west-southwest: a tinted glass curtain wall between concrete corner columns">
+          <figcaption class="caso-tarjeta-img">
+            <p class="caso-tarjeta-nombre">Building Z</p>
+            <p class="caso-sub">All four faces</p>
+            <div class="caso-composicion" data-edificio="z"></div>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="tarjeta caso-control" aria-label="Conditions on both twins">
+        <div class="caso-fecha">
+          <label class="rom-etiqueta" for="caso-fecha">Date</label>
+          <input type="range" id="caso-fecha" min="0" max="0" step="1" value="0">
+          <div class="caso-fecha-marcas" id="caso-fecha-marcas"></div>
+        </div>
+        <div class="caso-condiciones">
+          <div class="caso-datos">
+            <p class="rom-etiqueta" id="caso-fecha-titulo"></p>
+            <ul class="caso-meteo" id="caso-meteo"></ul>
+          </div>
+          <div class="caso-vista">
+            <p class="rom-etiqueta">View</p>
+            <div class="filtros" id="caso-vista" role="radiogroup" aria-label="View"></div>
+          </div>
+        </div>
+
+        <div class="caso-escalas">
+          <p class="rom-etiqueta">T<sub>air</sub> Along the Streamlines (°C)</p>
+          <div class="rom-escala">
+            <span class="rom-barra" id="caso-barra-t"></span>
+            <div class="rom-escala-valores"><span id="caso-t-min"></span><span id="caso-t-max"></span></div>
+          </div>
+          <p class="rom-etiqueta">T<sub>surface</sub> on the Floor (°C)</p>
+          <div class="rom-escala">
+            <span class="rom-barra caso-barra-ts"></span>
+            <div class="rom-escala-valores caso-cortes-ts" id="caso-ts-cortes">
+              <span style="left:20%">28</span><span style="left:40%">30</span><span style="left:60%">33</span><span style="left:80%">36</span>
+            </div>
+            <div class="rom-escala-valores caso-extremos"><span>Acceptable</span><span>Extreme</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="caso-fila">
+        <div class="gemelo-marco caso-marco">
+          <iframe data-edificio="x" data-src="gemelo.html?v=20261111g&amp;caso=x&amp;rom=1&amp;sol=1" title="Building X on the digital twin of Distrito Tec"></iframe>
+          <p class="rom-cargando" data-edificio="x">Loading…</p>
+        </div>
+        <div class="gemelo-marco caso-marco">
+          <iframe data-edificio="z" data-src="gemelo.html?v=20261111g&amp;caso=z&amp;rom=1&amp;sol=1" title="Building Z on the digital twin of Distrito Tec"></iframe>
+          <p class="rom-cargando" data-edificio="z">Loading…</p>
+        </div>
+      </div>
+
+      <hr class="linea-climatec" aria-hidden="true">
+
+      <h3 class="caso-subtitulo">Materials Degradation</h3>
+      <div class="caso-leyenda">
+        <span><i style="background:#2a78d6"></i>North</span><span><i style="background:#eb6834"></i>East</span>
+        <span><i style="background:#1baf7a"></i>South</span><span><i style="background:#eda100"></i>West</span>
+        <span class="caso-leyenda-edificio"><i style="background:#1d2433"></i>Building</span>
+      </div>
+      <div class="caso-fila">
+        <div class="tarjeta tarjeta-climatec caso-grafica-edificio" data-edificio="x"></div>
+        <div class="tarjeta tarjeta-climatec caso-grafica-edificio" data-edificio="z"></div>
+      </div>
+
+      <h3 class="caso-subtitulo">Maintenance Cost Estimate</h3>
+      <p class="caso-nota">Yearly recommendation: <span class="caso-estado" data-estado="Monitor"><i></i>Monitor</span> below 50 % of the limit, <span class="caso-estado" data-estado="Maintenance"><i></i>Maintain</span> from 50 % and <span class="caso-estado" data-estado="Critical"><i></i>Replace</span>, the critical case, at 100 %.<br>Limits: concrete cover of 40 mm, steel section loss of 10 % (300 µm) and paint ΔE of 5.<br>Glass needs <span class="caso-estado" data-estado="Maintenance"><i></i>Maintain</span> from 1 % haze and is never critical, since cleaning restores it.</p>
+      <div class="caso-fila">
+        <div class="tarjeta tarjeta-climatec caso-costos" data-edificio="x"></div>
+        <div class="tarjeta tarjeta-climatec caso-costos" data-edificio="z"></div>
+      </div>
+      <p class="caso-nota">Full Maintenance is one application over the whole material, and years show accumulated MXN in proportion to wear (glass: its accumulated cleanings).</p>
+
+      <hr class="linea-climatec" aria-hidden="true">
+
+      <div class="caso-subtitulo-fila">
+        <h3 class="caso-subtitulo">Cooling Energy Demand</h3>
+        <div class="filtros caso-periodos" id="caso-energia-periodo" role="radiogroup" aria-label="Period"></div>
+      </div>
+      <div class="caso-fila">
+        <figure class="tarjeta caso-figura caso-energia-imagen">
+          <img src="assets/caso/building_x.jpg?v=20261101a" width="1600" height="1200" loading="lazy" alt="Building X seen from the west-southwest">
+          <div class="caso-energia-tarjeta" data-edificio="x"></div>
+        </figure>
+        <figure class="tarjeta caso-figura caso-energia-imagen">
+          <img src="assets/caso/building_z.jpg?v=20261101a" width="1600" height="1200" loading="lazy" alt="Building Z seen from the west-southwest">
+          <div class="caso-energia-tarjeta" data-edificio="z"></div>
+        </figure>
+      </div>
+      <div class="tarjeta tarjeta-climatec caso-costos" id="caso-energia-tabla"></div>
+      <div class="tarjeta tarjeta-climatec caso-costos" id="caso-energia-costo"></div>
+      <p class="caso-nota">Hour-by-hour balance of the expected conditions with 24 °C indoors.<br>Costs use the CFE GDMTH tariff, Golfo Norte division, October 2026.</p>
+
+      <hr class="linea-climatec" aria-hidden="true">
+
+      <div class="caso-subtitulo-fila">
+        <h3 class="caso-subtitulo">Vegetation Effect</h3>
+        <span class="caso-verde-fecha">29 Jul 2027 · Month 9</span>
+      </div>
+      <div class="caso-fila">
+        <figure class="tarjeta caso-figura caso-energia-imagen">
+          <img src="assets/caso/building_x_verde.jpg?v=20261105c" width="1600" height="1200" loading="lazy" alt="Building X with grass around it, the entrance walkway free, and green walls on the west and south faces">
+          <div class="caso-verde-tarjeta" data-edificio="x"></div>
+        </figure>
+        <figure class="tarjeta caso-figura caso-energia-imagen">
+          <img src="assets/caso/building_z_verde.jpg?v=20261105c" width="1600" height="1200" loading="lazy" alt="Building Z with grass around it, the entrance walkway free, and green walls on the west and south faces">
+          <div class="caso-verde-tarjeta" data-edificio="z"></div>
+        </figure>
+      </div>
+      <div class="caso-leyenda">
+        <span class="caso-leyenda-edificio"><i style="background:#1d2433"></i>Without Vegetation</span>
+        <span class="caso-leyenda-edificio"><i style="background:#1baf7a"></i>With Vegetation</span>
+      </div>
+      <div class="caso-fila">
+        <div class="tarjeta tarjeta-climatec caso-grafica-edificio caso-verde-grafica" data-edificio="x"></div>
+        <div class="tarjeta tarjeta-climatec caso-grafica-edificio caso-verde-grafica" data-edificio="z"></div>
+      </div>
+      <p class="caso-nota">Both buildings stand behind Aulas IV (25.64944° N, 100.28990° W), with a footprint of 36 × 36 m, a height of 18 m (5 levels of 3.6 m).</p>
+    </section>
+
+    <footer class="pie">
+      <a class="pie-logo pie-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+      <a class="pie-logo pie-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png" alt="Tecnológico de Monterrey"></a>
+    </footer>
+  </main>
+
+  <script type="module" src="js/caso_estudio.js?v=20261111a"></script>
+</body>
+</html>

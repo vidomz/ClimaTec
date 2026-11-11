@@ -1,0 +1,59 @@
+{
+ "fuente": "OpenStreetMap (© colaboradores de OpenStreetMap, ODbL)",
+ "regla": "eje a <= 40 m de un predio del Tec por >= 120 m (Garza Sada: 70 m); m de escena (EPSG:3857 ~ 1.11 x m reales)",
+ "etiquetas": "[x, z] en coordenadas three.js, a la mitad del tramo junto al Tec (de esquina a esquina con otras calles colindantes); la altura la pone el visor",
+ "calles": [
+  {
+   "nombre": "Av. Fernando García Roel",
+   "osm": [
+    "Avenida Fernando García Roel"
+   ],
+   "metros_junto_al_tec": 2015,
+   "etiquetas": [
+    [
+     99.21,
+     28.32
+    ]
+   ]
+  },
+  {
+   "nombre": "Av. Junco de la Vega",
+   "osm": [
+    "Avenida Junco de la Vega"
+   ],
+   "metros_junto_al_tec": 1991,
+   "etiquetas": [
+    [
+     143.85,
+     231.15
+    ]
+   ]
+  },
+  {
+   "nombre": "Av. Eugenio Garza Sada",
+   "osm": [
+    "Avenida Eugenio Garza Sada"
+   ],
+   "metros_junto_al_tec": 1843,
+   "etiquetas": [
+    [
+     -210.43,
+     527.2
+    ]
+   ]
+  },
+  {
+   "nombre": "Av. Luis Elizondo",
+   "osm": [
+    "Avenida Luis Elizondo"
+   ],
+   "metros_junto_al_tec": 1086,
+   "etiquetas": [
+    [
+     280.53,
+     457.57
+    ]
+   ]
+  }
+ ]
+}

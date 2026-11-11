@@ -1,0 +1,216 @@
+{
+ "personas": [
+  {
+   "id": "P1",
+   "nombre": "Rectoría Esplanade",
+   "contexto": "Open paved plaza in full sun, west of Rectoría",
+   "x": -213.72,
+   "y": 4.07,
+   "z": 310.17,
+   "rumbo": 1.571,
+   "suelo": "Piso",
+   "arbol_m": 18.7
+  },
+  {
+   "id": "P2",
+   "nombre": "BiblioTEC Glass Façade",
+   "contexto": "Beside the south glass façade of BiblioTEC (reflected radiation)",
+   "x": -30,
+   "y": 4.07,
+   "z": 472.81,
+   "rumbo": 3.142,
+   "suelo": "Piso",
+   "arbol_m": 9.8
+  },
+  {
+   "id": "P3",
+   "nombre": "CETEC Towers",
+   "contexto": "At the foot of the CETEC towers (wind acceleration)",
+   "x": -160.28,
+   "y": 4.07,
+   "z": 420.2,
+   "rumbo": 0,
+   "suelo": "Piso",
+   "arbol_m": 20.8
+  },
+  {
+   "id": "P4",
+   "nombre": "Centrales Courtyard",
+   "contexto": "Under the tree canopy in the Centrales courtyard (shade)",
+   "x": 62.61,
+   "y": 4.07,
+   "z": 272.66,
+   "rumbo": -0.698,
+   "suelo": "Piso",
+   "arbol_m": 1.4
+  },
+  {
+   "id": "P5",
+   "nombre": "Garza Sada Sidewalk",
+   "contexto": "East sidewalk of Av. Eugenio Garza Sada (traffic)",
+   "x": -258.43,
+   "y": 4.07,
+   "z": 401.47,
+   "rumbo": -1.044,
+   "suelo": "Piso",
+   "arbol_m": 4.1
+  },
+  {
+   "id": "P6",
+   "nombre": "Stadium Esplanade",
+   "contexto": "Open esplanade south of Estadio Borregos",
+   "x": 439.22,
+   "y": 4.07,
+   "z": 148.56,
+   "rumbo": 3.142,
+   "suelo": "Piso",
+   "arbol_m": 10.6
+  },
+  {
+   "id": "P7",
+   "nombre": "Arena Borregos Plaza",
+   "contexto": "Nodo Cultural plaza by Arena Borregos",
+   "x": 222.8,
+   "y": 4.07,
+   "z": 363.96,
+   "rumbo": 0.349,
+   "suelo": "Piso",
+   "arbol_m": 5.8
+  },
+  {
+   "id": "P8",
+   "nombre": "Expedition–Hub Plaza",
+   "contexto": "Plaza between Expedition FEMSA and the Hub",
+   "x": -264.03,
+   "y": 4.07,
+   "z": 152.28,
+   "rumbo": -0.618,
+   "suelo": "Piso",
+   "arbol_m": 3.6
+  },
+  {
+   "id": "P9",
+   "nombre": "Neighbourhood Street",
+   "contexto": "Sidewalk of Calle Filósofos, residential neighbourhood west of Garza Sada",
+   "x": -448.55,
+   "y": 4.07,
+   "z": 350.16,
+   "rumbo": 2.072,
+   "suelo": "Piso",
+   "arbol_m": 134.3
+  },
+  {
+   "id": "P10",
+   "nombre": "Sunny Lawn",
+   "contexto": "Open lawn east of Domo Cultural (grass, no shade)",
+   "x": 144.61,
+   "y": 4.08,
+   "z": 310.38,
+   "rumbo": -1.571,
+   "suelo": "Pasto",
+   "arbol_m": 7.5
+  }
+ ],
+ "vehiculos": [
+  {
+   "id": "V1",
+   "tipo": "estacionado",
+   "lugar": "Estacionamiento Norte \"J. Cantú Leal\"",
+   "x": 733.91,
+   "y": 4.07,
+   "z": -80.45,
+   "rumbo": 3.032,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V2",
+   "tipo": "estacionado",
+   "lugar": "Estacionamiento Norte \"J. Cantú Leal\"",
+   "x": 744.51,
+   "y": 4.07,
+   "z": -88.86,
+   "rumbo": 1.434,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V3",
+   "tipo": "estacionado",
+   "lugar": "Estacionamiento junto a E2",
+   "x": -268.62,
+   "y": 4.05,
+   "z": -47.36,
+   "rumbo": 2.376,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V4",
+   "tipo": "estacionado",
+   "lugar": "Estacionamiento junto al Centro Deportivo Escamilla",
+   "x": -55.86,
+   "y": 4.07,
+   "z": -431.46,
+   "rumbo": -2.215,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V5",
+   "tipo": "estacionado",
+   "lugar": "Calle Lirios (curbside, colonia north of campus)",
+   "x": -23.91,
+   "y": 4.05,
+   "z": -31.15,
+   "rumbo": -0.779,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V6",
+   "tipo": "estacionado",
+   "lugar": "Prolongación Bachilleres (curbside, Col. Tecnológico)",
+   "x": -255.05,
+   "y": 4.05,
+   "z": 580.23,
+   "rumbo": -1.047,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V7",
+   "tipo": "estacionado",
+   "lugar": "Calle Guayanas (curbside under a tree, Col. Altavista)",
+   "x": 297.6,
+   "y": 4.05,
+   "z": 544.21,
+   "rumbo": 1.619,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V8",
+   "tipo": "estacionado",
+   "lugar": "Calle Brasil (curbside, partial shade)",
+   "x": 169.89,
+   "y": 4.05,
+   "z": 666.84,
+   "rumbo": -0.379,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V9",
+   "tipo": "estacionado",
+   "lugar": "Calle Ahuehuetes (curbside, colonia north-east of campus)",
+   "x": 82.64,
+   "y": 4.05,
+   "z": -71.26,
+   "rumbo": 0.785,
+   "color": "#b3191e"
+  },
+  {
+   "id": "V10",
+   "tipo": "estacionado",
+   "lugar": "Calle Filósofos (curbside, Col. Tecnológico)",
+   "x": -461.73,
+   "y": 4.05,
+   "z": 331.16,
+   "rumbo": -2.64,
+   "color": "#b3191e"
+  }
+ ]
+}

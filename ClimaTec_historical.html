@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" class="pagina-historico">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ClimaTec</title>
+  <link rel="icon" href="data:,">
+  <meta name="description" content="Historical dashboard of air quality and temperature risk levels around Distrito Tec, from SIMA monitoring stations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/visor.css?v=20261111a">
+  <link rel="stylesheet" href="css/historico.css?v=20261105a">
+</head>
+<body>
+  <header class="encabezado">
+    <a class="logo logo-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+    <nav class="pestanas" aria-label="Secciones">
+      <a class="pestana" href="ClimaTec_index.html">Tec de Monterrey</a>
+      <a class="pestana" href="ClimaTec_about.html">About</a>
+      <a class="pestana" href="ClimaTec_historical.html" aria-current="page">Historical</a>
+      <a class="pestana" href="ClimaTec_realtime.html">Real-Time</a>
+      <a class="pestana" href="ClimaTec_prediction.html">Prediction</a>
+    </nav>
+    <a class="logo logo-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png"
+         alt="Tecnológico de Monterrey · Escuela de Ingeniería y Ciencias"></a>
+  </header>
+
+  <main class="tablero" id="tablero" aria-busy="true">
+    <section class="tablero-intro">
+      <h1>Historical Dashboard</h1>
+    </section>
+
+    <section class="estaciones-mapa">
+
+      <figure class="mapa-figura" aria-labelledby="t-estaciones">
+        <img id="mapa-estaciones" alt="Map of SIMA stations I, III and XII around Distrito Tec" hidden>
+        <div class="mapa-pendiente" id="mapa-pendiente">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>
+          <span>Station Map</span>
+          <small>Image pending</small>
+        </div>
+        <figcaption class="mapa-pie">
+          <h2 class="seccion-titulo" id="t-estaciones">Monitoring Stations</h2>
+          <ul class="mapa-leyenda" id="lista-estaciones"></ul>
+          <p class="fuente-datos">Data from the Sistema Integral de Monitoreo Ambiental (SIMA), Secretaría de Medio Ambiente del Gobierno de Nuevo León: the three monitoring stations closest to Distrito Tec.</p>
+          <p class="mapa-credito">Map data © OpenStreetMap contributors</p>
+        </figcaption>
+      </figure>
+
+      <section class="tarjeta umbrales" aria-labelledby="t-umbrales">
+        <h2 class="seccion-titulo" id="t-umbrales">Risk Level Thresholds</h2>
+        <div class="tabla-envoltura"><table class="tabla tabla-umbrales" id="umbrales"></table></div>
+        <p class="fuente-datos">Values defined for ClimaTec. Air quality thresholds are based on Mexican standards; temperature and wind thresholds are based on the alert criteria of the Secretaría de Gestión Integral de Riesgos y Protección Civil (SGIRPC).</p>
+      </section>
+    </section>
+
+    <hr class="linea-climatec" aria-hidden="true">
+
+    <section aria-labelledby="t-destacados">
+      <h2 class="seccion-titulo" id="t-destacados">Highlights</h2>
+      <div class="destacados" id="destacados"></div>
+    </section>
+
+    <hr class="linea-climatec" aria-hidden="true">
+
+    <section class="estacion-barra" aria-labelledby="t-estacion">
+      <div>
+        <h2 class="seccion-titulo" id="t-estacion">Station Detail</h2>
+        <p class="estacion-info" id="estacion-info"></p>
+      </div>
+      <div class="filtros" role="radiogroup" aria-label="Station" id="estaciones"></div>
+    </section>
+
+    <section class="tarjeta" aria-labelledby="t-mapa">
+      <header class="tarjeta-enc">
+        <div>
+          <h2 id="t-mapa">Days Above the Moderate Limit, by Year</h2>
+          <p>Each cell is the percentage of that year's days whose worst value reached the <b>High</b> or <b>Extreme</b> level.</p>
+        </div>
+      </header>
+      <div class="grafico" id="mapa"></div>
+      <div class="escala" id="escala-mapa" aria-hidden="true"></div>
+    </section>
+
+    <hr class="linea-climatec" aria-hidden="true">
+
+    <section class="seccion-hi" aria-labelledby="t-hi">
+      <h2 class="seccion-titulo" id="t-hi">Heat Index</h2>
+      <p class="hi-intro">The HI expresses the temperature perceived by the human body, combining T<sub>air</sub> with H<sub>R</sub> according to the U.S. National Weather Service (NWS) method.</p>
+      <section class="tarjeta hi-escala" aria-labelledby="t-hi-umbrales">
+        <h3 class="hi-subtitulo" id="t-hi-umbrales">Risk Levels</h3>
+        <div class="hi-barra" id="hi-barra"></div>
+        <p class="fuente-datos">Each day is represented by its highest hourly heat index. Thresholds converted from the NWS values in °F (80, 90, 103 and 125 °F).</p>
+      </section>
+      <div class="hi-rejilla">
+        <section class="tarjeta hi-casos" aria-labelledby="t-hi-peores">
+          <h3 class="hi-subtitulo" id="t-hi-peores">Most Severe Days</h3>
+          <div class="hi-figuras" id="hi-peores"></div>
+        </section>
+        <section class="tarjeta hi-casos" aria-labelledby="t-hi-mejores">
+          <h3 class="hi-subtitulo" id="t-hi-mejores">Lowest-Risk Years</h3>
+          <div class="hi-figuras" id="hi-mejores"></div>
+        </section>
+      </div>
+    </section>
+
+    <hr class="linea-climatec" aria-hidden="true">
+
+    <section aria-labelledby="t-variables">
+      <h2 class="seccion-titulo" id="t-variables">Explore a Variable</h2>
+      <div class="variables" id="variables" role="radiogroup" aria-label="Variable"></div>
+    </section>
+
+    <section class="detalle" aria-labelledby="t-detalle">
+      <header class="detalle-enc">
+        <h2 id="t-detalle"></h2>
+        <p id="detalle-sub"></p>
+      </header>
+
+      <div class="fila-detalle">
+        <section class="tarjeta niveles-escala" aria-labelledby="t-niveles-escala">
+          <h3 class="hi-subtitulo" id="t-niveles-escala">Risk Levels</h3>
+          <div class="barra-v" id="niveles"></div>
+        </section>
+
+        <section class="tarjeta" aria-labelledby="t-niveles">
+          <header class="tarjeta-enc">
+            <div>
+              <h3 id="t-niveles">Days per Risk Level, by Year</h3>
+              <p id="barras-sub"></p>
+            </div>
+          </header>
+          <div class="grafico" id="barras"></div>
+        </section>
+
+        <section class="tarjeta" aria-labelledby="t-extremos">
+          <header class="tarjeta-enc">
+            <div>
+              <h3 id="t-extremos"></h3>
+              <p>Against the five risk bands of the classification.</p>
+            </div>
+          </header>
+          <div class="grafico" id="extremos"></div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <a class="pie-logo pie-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+      <a class="pie-logo pie-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png" alt="Tecnológico de Monterrey"></a>
+    </footer>
+  </main>
+
+  <div class="tooltip" id="tooltip" role="status" hidden></div>
+
+  <script type="module" src="js/historico.js?v=20261110a"></script>
+</body>
+</html>

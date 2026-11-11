@@ -1,0 +1,2882 @@
+{
+ "generado": "2026-11-04 12:24",
+ "lineas": {
+  "recorte": {
+   "E0": 370442.1,
+   "E1": 370662.1,
+   "N0": 2837422.9,
+   "N1": 2837622.9
+  },
+  "foco": {
+   "E": 370522.1,
+   "N": 2837492.9,
+   "radio": 55,
+   "semillas": 260,
+   "densidad": 2
+  }
+ },
+ "fechas": [
+  {
+   "fecha": "2026-10-29",
+   "hora": 15,
+   "etiqueta": "Day 1",
+   "corrida": "caso_20261029_1500",
+   "origen": "tiemporeal_20261029_1500_33ad91b7",
+   "fila": {
+    "T": 29.81,
+    "HR": 37.3,
+    "SR": 499.9,
+    "Ws": 8.87,
+    "Wd": 29.8,
+    "Patm": 960.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 28.8,
+     "HR": 50.0,
+     "Patm": 970.6,
+     "SR": 419.0,
+     "Ws": 11.8,
+     "Wd": 88.0
+    },
+    "SIMA III": {
+     "T": 29.57,
+     "HR": 26.0,
+     "Patm": 953.9,
+     "SR": 550.0,
+     "Ws": 8.7,
+     "Wd": 45.0
+    },
+    "SIMA XII": {
+     "T": 30.19,
+     "HR": 33.0,
+     "Patm": 957.3,
+     "SR": 528.0,
+     "Ws": 7.8,
+     "Wd": 1.0
+    }
+   },
+   "fuente": "records of SIMA I, III and XII on 28 Oct 2026 at 15:00, the warmest hour of the day before, interpolated to Distrito Tec"
+  },
+  {
+   "fecha": "2026-11-29",
+   "hora": 15,
+   "corrida": "caso_20261129_1500",
+   "origen": "tiemporeal_20261129_1500_2159b169",
+   "segundos": {
+    "rom_3d": 1.1,
+    "rom_local": 48.1,
+    "total": 49.3
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.37,
+     "HR": 48.414,
+     "Patm": 965.957,
+     "SR": 251.393,
+     "Ws": 10.327,
+     "Wd": 90.395
+    },
+    "SIMA III": {
+     "T": 21.682,
+     "HR": 43.092,
+     "Patm": 950.839,
+     "SR": 357.103,
+     "Ws": 8.022,
+     "Wd": 65.308
+    },
+    "SIMA XII": {
+     "T": 22.094,
+     "HR": 44.82,
+     "Patm": 952.146,
+     "SR": 323.768,
+     "Ws": 7.494,
+     "Wd": 106.32
+    }
+   },
+   "fila": {
+    "T": 22.16,
+    "HR": 45.7,
+    "SR": 305.6,
+    "Ws": 8.25,
+    "Wd": 100.2,
+    "Patm": 955.7
+   },
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day",
+   "etiqueta": "Month 1"
+  },
+  {
+   "fecha": "2026-12-29",
+   "hora": 16,
+   "corrida": "caso_20261229_1600",
+   "origen": "tiemporeal_20261229_1600_c8c55df8",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.1,
+    "total": 47.4
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 20.778,
+     "HR": 45.19,
+     "Patm": 965.95,
+     "SR": 183.29,
+     "Ws": 11.193,
+     "Wd": 89.301
+    },
+    "SIMA III": {
+     "T": 20.09,
+     "HR": 40.046,
+     "Patm": 950.832,
+     "SR": 264.478,
+     "Ws": 8.784,
+     "Wd": 66.285
+    },
+    "SIMA XII": {
+     "T": 20.501,
+     "HR": 41.71,
+     "Patm": 952.14,
+     "SR": 238.943,
+     "Ws": 8.231,
+     "Wd": 101.636
+    }
+   },
+   "fila": {
+    "T": 20.56,
+    "HR": 42.6,
+    "SR": 224.9,
+    "Ws": 9.02,
+    "Wd": 96.9,
+    "Patm": 955.7
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 2"
+  },
+  {
+   "fecha": "2027-01-29",
+   "hora": 16,
+   "corrida": "caso_20270129_1600",
+   "origen": "tiemporeal_20270129_1600_b3fed68b",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 46.5,
+    "total": 46.8
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.162,
+     "HR": 41.447,
+     "Patm": 965.147,
+     "SR": 230.303,
+     "Ws": 12.689,
+     "Wd": 89.402
+    },
+    "SIMA III": {
+     "T": 21.474,
+     "HR": 36.525,
+     "Patm": 950.029,
+     "SR": 328.982,
+     "Ws": 10.111,
+     "Wd": 68.678
+    },
+    "SIMA XII": {
+     "T": 21.886,
+     "HR": 38.11,
+     "Patm": 951.337,
+     "SR": 297.967,
+     "Ws": 9.515,
+     "Wd": 99.682
+    }
+   },
+   "fila": {
+    "T": 21.95,
+    "HR": 38.9,
+    "SR": 281.0,
+    "Ws": 10.36,
+    "Wd": 95.7,
+    "Patm": 954.9
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 3"
+  },
+  {
+   "fecha": "2027-02-28",
+   "hora": 16,
+   "corrida": "caso_20270228_1600",
+   "origen": "tiemporeal_20270228_1600_5afbcd67",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 50.4,
+    "total": 50.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 25.297,
+     "HR": 37.968,
+     "Patm": 963.37,
+     "SR": 286.309,
+     "Ws": 14.44,
+     "Wd": 91.654
+    },
+    "SIMA III": {
+     "T": 24.609,
+     "HR": 33.216,
+     "Patm": 948.252,
+     "SR": 405.911,
+     "Ws": 11.674,
+     "Wd": 73.511
+    },
+    "SIMA XII": {
+     "T": 25.021,
+     "HR": 34.74,
+     "Patm": 949.56,
+     "SR": 368.318,
+     "Ws": 11.031,
+     "Wd": 101.539
+    }
+   },
+   "fila": {
+    "T": 25.08,
+    "HR": 35.6,
+    "SR": 347.7,
+    "Ws": 11.94,
+    "Wd": 97.8,
+    "Patm": 953.1
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 4"
+  },
+  {
+   "fecha": "2027-03-29",
+   "hora": 17,
+   "corrida": "caso_20270329_1700",
+   "origen": "tiemporeal_20270329_1700_6a69739f",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 52.1,
+    "total": 52.4
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 28.446,
+     "HR": 36.985,
+     "Patm": 960.533,
+     "SR": 211.382,
+     "Ws": 15.397,
+     "Wd": 99.095
+    },
+    "SIMA III": {
+     "T": 27.758,
+     "HR": 32.187,
+     "Patm": 945.415,
+     "SR": 309.364,
+     "Ws": 12.528,
+     "Wd": 83.324
+    },
+    "SIMA XII": {
+     "T": 28.17,
+     "HR": 33.723,
+     "Patm": 946.723,
+     "SR": 278.514,
+     "Ws": 11.86,
+     "Wd": 111.695
+    }
+   },
+   "fila": {
+    "T": 28.23,
+    "HR": 34.5,
+    "SR": 261.6,
+    "Ws": 12.8,
+    "Wd": 107.1,
+    "Patm": 950.3
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 5"
+  },
+  {
+   "fecha": "2027-04-29",
+   "hora": 17,
+   "corrida": "caso_20270429_1700",
+   "origen": "tiemporeal_20270429_1700_844ae1a7",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 53.9,
+    "total": 54.2
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 31.107,
+     "HR": 40.164,
+     "Patm": 958.282,
+     "SR": 214.899,
+     "Ws": 15.361,
+     "Wd": 104.607
+    },
+    "SIMA III": {
+     "T": 30.419,
+     "HR": 35.029,
+     "Patm": 943.164,
+     "SR": 321.158,
+     "Ws": 12.491,
+     "Wd": 89.806
+    },
+    "SIMA XII": {
+     "T": 30.831,
+     "HR": 36.678,
+     "Patm": 944.472,
+     "SR": 287.592,
+     "Ws": 11.822,
+     "Wd": 119.501
+    }
+   },
+   "fila": {
+    "T": 30.89,
+    "HR": 37.6,
+    "SR": 269.3,
+    "Ws": 12.77,
+    "Wd": 114.1,
+    "Patm": 948.1
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 6"
+  },
+  {
+   "fecha": "2027-05-29",
+   "hora": 17,
+   "corrida": "caso_20270529_1700",
+   "origen": "tiemporeal_20270529_1700_3a06fda7",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 59.3,
+    "total": 59.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.047,
+     "HR": 42.53,
+     "Patm": 958.258,
+     "SR": 231.007,
+     "Ws": 15.304,
+     "Wd": 110.081
+    },
+    "SIMA III": {
+     "T": 32.359,
+     "HR": 37.122,
+     "Patm": 943.141,
+     "SR": 344.315,
+     "Ws": 12.434,
+     "Wd": 96.873
+    },
+    "SIMA XII": {
+     "T": 32.77,
+     "HR": 38.862,
+     "Patm": 944.448,
+     "SR": 308.595,
+     "Ws": 11.765,
+     "Wd": 126.181
+    }
+   },
+   "fila": {
+    "T": 32.83,
+    "HR": 39.8,
+    "SR": 289.1,
+    "Ws": 12.71,
+    "Wd": 120.5,
+    "Patm": 948.0
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 7"
+  },
+  {
+   "fecha": "2027-06-29",
+   "hora": 17,
+   "corrida": "caso_20270629_1700",
+   "origen": "tiemporeal_20270629_1700_81cab6f8",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 55.5,
+    "total": 55.9
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.464,
+     "HR": 39.9,
+     "Patm": 959.855,
+     "SR": 261.762,
+     "Ws": 15.287,
+     "Wd": 113.139
+    },
+    "SIMA III": {
+     "T": 33.776,
+     "HR": 34.522,
+     "Patm": 944.738,
+     "SR": 380.716,
+     "Ws": 12.415,
+     "Wd": 100.925
+    },
+    "SIMA XII": {
+     "T": 34.187,
+     "HR": 36.245,
+     "Patm": 946.045,
+     "SR": 343.331,
+     "Ws": 11.747,
+     "Wd": 129.635
+    }
+   },
+   "fila": {
+    "T": 34.25,
+    "HR": 37.2,
+    "SR": 322.8,
+    "Ws": 12.69,
+    "Wd": 123.8,
+    "Patm": 949.6
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 8"
+  },
+  {
+   "fecha": "2027-07-29",
+   "hora": 16,
+   "corrida": "caso_20270729_1600",
+   "origen": "tiemporeal_20270729_1600_378a5099",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 68.3,
+    "total": 68.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.831,
+     "HR": 38.249,
+     "Patm": 961.031,
+     "SR": 376.998,
+     "Ws": 15.187,
+     "Wd": 108.887
+    },
+    "SIMA III": {
+     "T": 34.143,
+     "HR": 32.899,
+     "Patm": 945.913,
+     "SR": 528.881,
+     "Ws": 12.327,
+     "Wd": 95.745
+    },
+    "SIMA XII": {
+     "T": 34.554,
+     "HR": 34.608,
+     "Patm": 947.221,
+     "SR": 481.177,
+     "Ws": 11.661,
+     "Wd": 124.186
+    }
+   },
+   "fila": {
+    "T": 34.62,
+    "HR": 35.5,
+    "SR": 455.0,
+    "Ws": 12.6,
+    "Wd": 118.7,
+    "Patm": 950.8
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 9"
+  },
+  {
+   "fecha": "2027-08-29",
+   "hora": 16,
+   "corrida": "caso_20270829_1600",
+   "origen": "tiemporeal_20270829_1600_57aa17cd",
+   "segundos": {
+    "rom_3d": 0.4,
+    "rom_local": 86.2,
+    "total": 86.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.575,
+     "HR": 42.47,
+     "Patm": 960.856,
+     "SR": 317.835,
+     "Ws": 13.984,
+     "Wd": 109.25
+    },
+    "SIMA III": {
+     "T": 32.887,
+     "HR": 36.953,
+     "Patm": 945.738,
+     "SR": 458.296,
+     "Ws": 11.252,
+     "Wd": 94.015
+    },
+    "SIMA XII": {
+     "T": 33.298,
+     "HR": 38.727,
+     "Patm": 947.046,
+     "SR": 414.168,
+     "Ws": 10.618,
+     "Wd": 127.715
+    }
+   },
+   "fila": {
+    "T": 33.36,
+    "HR": 39.7,
+    "SR": 389.9,
+    "Ws": 11.52,
+    "Wd": 121.1,
+    "Patm": 950.6
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 10"
+  },
+  {
+   "fecha": "2027-09-29",
+   "hora": 16,
+   "corrida": "caso_20270929_1600",
+   "origen": "tiemporeal_20270929_1600_ef40cb4e",
+   "segundos": {
+    "rom_3d": 0.9,
+    "rom_local": 51.2,
+    "total": 52.2
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 30.496,
+     "HR": 49.558,
+     "Patm": 961.47,
+     "SR": 243.766,
+     "Ws": 12.616,
+     "Wd": 107.614
+    },
+    "SIMA III": {
+     "T": 29.807,
+     "HR": 43.951,
+     "Patm": 946.352,
+     "SR": 361.18,
+     "Ws": 10.037,
+     "Wd": 89.605
+    },
+    "SIMA XII": {
+     "T": 30.219,
+     "HR": 45.773,
+     "Patm": 947.66,
+     "SR": 324.211,
+     "Ws": 9.441,
+     "Wd": 128.996
+    }
+   },
+   "fila": {
+    "T": 30.28,
+    "HR": 46.7,
+    "SR": 304.0,
+    "Ws": 10.29,
+    "Wd": 121.3,
+    "Patm": 951.2
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 11"
+  },
+  {
+   "fecha": "2027-10-29",
+   "hora": 15,
+   "corrida": "caso_20271029_1500",
+   "origen": "tiemporeal_20271029_1500_71f3f17c",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 49.3,
+    "total": 49.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 26.385,
+     "HR": 51.281,
+     "Patm": 963.997,
+     "SR": 281.482,
+     "Ws": 11.244,
+     "Wd": 97.92
+    },
+    "SIMA III": {
+     "T": 25.697,
+     "HR": 45.762,
+     "Patm": 948.88,
+     "SR": 403.996,
+     "Ws": 8.826,
+     "Wd": 76.094
+    },
+    "SIMA XII": {
+     "T": 26.109,
+     "HR": 47.56,
+     "Patm": 950.187,
+     "SR": 365.378,
+     "Ws": 8.27,
+     "Wd": 117.015
+    }
+   },
+   "fila": {
+    "T": 26.17,
+    "HR": 48.5,
+    "SR": 344.3,
+    "Ws": 9.06,
+    "Wd": 109.9,
+    "Patm": 953.8
+   },
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day",
+   "etiqueta": "Month 12"
+  },
+  {
+   "fecha": "2027-11-29",
+   "hora": 15,
+   "corrida": "caso_20271129_1500",
+   "origen": "tiemporeal_20271129_1500_d47deba9",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 50.2,
+    "total": 50.4
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.477,
+     "HR": 48.017,
+     "Patm": 965.946,
+     "SR": 251.345,
+     "Ws": 10.331,
+     "Wd": 90.455
+    },
+    "SIMA III": {
+     "T": 21.789,
+     "HR": 42.7,
+     "Patm": 950.829,
+     "SR": 357.053,
+     "Ws": 8.025,
+     "Wd": 65.389
+    },
+    "SIMA XII": {
+     "T": 22.201,
+     "HR": 44.426,
+     "Patm": 952.136,
+     "SR": 323.718,
+     "Ws": 7.497,
+     "Wd": 106.425
+    }
+   },
+   "fila": {
+    "T": 22.26,
+    "HR": 45.3,
+    "SR": 305.5,
+    "Ws": 8.25,
+    "Wd": 100.3,
+    "Patm": 955.7
+   },
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day",
+   "etiqueta": "Month 13"
+  },
+  {
+   "fecha": "2027-12-29",
+   "hora": 16,
+   "corrida": "caso_20271229_1600",
+   "origen": "tiemporeal_20271229_1600_92ca58ee",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 48.1,
+    "total": 48.5
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 20.861,
+     "HR": 44.803,
+     "Patm": 965.952,
+     "SR": 183.254,
+     "Ws": 11.186,
+     "Wd": 89.318
+    },
+    "SIMA III": {
+     "T": 20.173,
+     "HR": 39.669,
+     "Patm": 950.834,
+     "SR": 264.439,
+     "Ws": 8.778,
+     "Wd": 66.293
+    },
+    "SIMA XII": {
+     "T": 20.585,
+     "HR": 41.329,
+     "Patm": 952.142,
+     "SR": 238.904,
+     "Ws": 8.224,
+     "Wd": 101.68
+    }
+   },
+   "fila": {
+    "T": 20.65,
+    "HR": 42.2,
+    "SR": 224.9,
+    "Ws": 9.01,
+    "Wd": 96.9,
+    "Patm": 955.7
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 14"
+  },
+  {
+   "fecha": "2028-01-29",
+   "hora": 16,
+   "corrida": "caso_20280129_1600",
+   "origen": "tiemporeal_20280129_1600_b21093d7",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.5,
+    "total": 47.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.224,
+     "HR": 41.078,
+     "Patm": 965.157,
+     "SR": 230.233,
+     "Ws": 12.675,
+     "Wd": 89.389
+    },
+    "SIMA III": {
+     "T": 21.536,
+     "HR": 36.171,
+     "Patm": 950.039,
+     "SR": 328.912,
+     "Ws": 10.098,
+     "Wd": 68.642
+    },
+    "SIMA XII": {
+     "T": 21.948,
+     "HR": 37.751,
+     "Patm": 951.347,
+     "SR": 297.897,
+     "Ws": 9.502,
+     "Wd": 99.677
+    }
+   },
+   "fila": {
+    "T": 22.01,
+    "HR": 38.6,
+    "SR": 280.9,
+    "Ws": 10.35,
+    "Wd": 95.7,
+    "Patm": 954.9
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 15"
+  },
+  {
+   "fecha": "2028-02-29",
+   "hora": 16,
+   "corrida": "caso_20280229_1600",
+   "origen": "tiemporeal_20280229_1600_a18ddd0f",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.2,
+    "total": 47.4
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 25.466,
+     "HR": 37.517,
+     "Patm": 963.311,
+     "SR": 287.833,
+     "Ws": 14.477,
+     "Wd": 91.724
+    },
+    "SIMA III": {
+     "T": 24.778,
+     "HR": 32.787,
+     "Patm": 948.194,
+     "SR": 408.066,
+     "Ws": 11.707,
+     "Wd": 73.633
+    },
+    "SIMA XII": {
+     "T": 25.189,
+     "HR": 34.303,
+     "Patm": 949.501,
+     "SR": 370.275,
+     "Ws": 11.063,
+     "Wd": 101.617
+    }
+   },
+   "fila": {
+    "T": 25.25,
+    "HR": 35.1,
+    "SR": 349.5,
+    "Ws": 11.97,
+    "Wd": 97.9,
+    "Patm": 953.1
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 16"
+  },
+  {
+   "fecha": "2028-03-29",
+   "hora": 17,
+   "corrida": "caso_20280329_1700",
+   "origen": "tiemporeal_20280329_1700_3ca07a68",
+   "segundos": {
+    "rom_3d": 0.1,
+    "rom_local": 47.0,
+    "total": 47.1
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 28.604,
+     "HR": 36.624,
+     "Patm": 960.463,
+     "SR": 211.781,
+     "Ws": 15.403,
+     "Wd": 99.202
+    },
+    "SIMA III": {
+     "T": 27.916,
+     "HR": 31.844,
+     "Patm": 945.346,
+     "SR": 310.098,
+     "Ws": 12.534,
+     "Wd": 83.451
+    },
+    "SIMA XII": {
+     "T": 28.328,
+     "HR": 33.373,
+     "Patm": 946.653,
+     "SR": 279.14,
+     "Ws": 11.866,
+     "Wd": 111.849
+    }
+   },
+   "fila": {
+    "T": 28.39,
+    "HR": 34.2,
+    "SR": 262.2,
+    "Ws": 12.81,
+    "Wd": 107.2,
+    "Patm": 950.2
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 17"
+  },
+  {
+   "fecha": "2028-04-29",
+   "hora": 17,
+   "corrida": "caso_20280429_1700",
+   "origen": "tiemporeal_20280429_1700_d407f4d1",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.7,
+    "total": 48.0
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 31.245,
+     "HR": 39.845,
+     "Patm": 958.251,
+     "SR": 215.149,
+     "Ws": 15.358,
+     "Wd": 104.76
+    },
+    "SIMA III": {
+     "T": 30.557,
+     "HR": 34.72,
+     "Patm": 943.134,
+     "SR": 321.642,
+     "Ws": 12.487,
+     "Wd": 89.992
+    },
+    "SIMA XII": {
+     "T": 30.969,
+     "HR": 36.365,
+     "Patm": 944.441,
+     "SR": 288.001,
+     "Ws": 11.818,
+     "Wd": 119.706
+    }
+   },
+   "fila": {
+    "T": 31.03,
+    "HR": 37.2,
+    "SR": 269.7,
+    "Ws": 12.76,
+    "Wd": 114.3,
+    "Patm": 948.0
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 18"
+  },
+  {
+   "fecha": "2028-05-29",
+   "hora": 17,
+   "corrida": "caso_20280529_1700",
+   "origen": "tiemporeal_20280529_1700_1cfd8d31",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 50.1,
+    "total": 50.3
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.172,
+     "HR": 42.086,
+     "Patm": 958.286,
+     "SR": 231.813,
+     "Ws": 15.305,
+     "Wd": 110.19
+    },
+    "SIMA III": {
+     "T": 32.484,
+     "HR": 36.693,
+     "Patm": 943.169,
+     "SR": 345.35,
+     "Ws": 12.435,
+     "Wd": 97.022
+    },
+    "SIMA XII": {
+     "T": 32.896,
+     "HR": 38.427,
+     "Patm": 944.476,
+     "SR": 309.561,
+     "Ws": 11.766,
+     "Wd": 126.301
+    }
+   },
+   "fila": {
+    "T": 32.96,
+    "HR": 39.3,
+    "SR": 290.0,
+    "Ws": 12.71,
+    "Wd": 120.6,
+    "Patm": 948.1
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 19"
+  },
+  {
+   "fecha": "2028-06-29",
+   "hora": 17,
+   "corrida": "caso_20280629_1700",
+   "origen": "tiemporeal_20280629_1700_8586baee",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 48.3,
+    "total": 48.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.57,
+     "HR": 39.365,
+     "Patm": 959.894,
+     "SR": 262.372,
+     "Ws": 15.281,
+     "Wd": 113.185
+    },
+    "SIMA III": {
+     "T": 33.882,
+     "HR": 34.015,
+     "Patm": 944.776,
+     "SR": 381.416,
+     "Ws": 12.41,
+     "Wd": 100.974
+    },
+    "SIMA XII": {
+     "T": 34.293,
+     "HR": 35.728,
+     "Patm": 946.084,
+     "SR": 344.003,
+     "Ws": 11.742,
+     "Wd": 129.701
+    }
+   },
+   "fila": {
+    "T": 34.36,
+    "HR": 36.6,
+    "SR": 323.5,
+    "Ws": 12.69,
+    "Wd": 123.9,
+    "Patm": 949.7
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 20"
+  },
+  {
+   "fecha": "2028-07-29",
+   "hora": 16,
+   "corrida": "caso_20280729_1600",
+   "origen": "tiemporeal_20280729_1600_c98a596d",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 48.0,
+    "total": 48.3
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.904,
+     "HR": 37.825,
+     "Patm": 961.035,
+     "SR": 376.126,
+     "Ws": 15.164,
+     "Wd": 108.899
+    },
+    "SIMA III": {
+     "T": 34.216,
+     "HR": 32.502,
+     "Patm": 945.917,
+     "SR": 527.834,
+     "Ws": 12.307,
+     "Wd": 95.721
+    },
+    "SIMA XII": {
+     "T": 34.628,
+     "HR": 34.201,
+     "Patm": 947.225,
+     "SR": 480.185,
+     "Ws": 11.641,
+     "Wd": 124.254
+    }
+   },
+   "fila": {
+    "T": 34.69,
+    "HR": 35.1,
+    "SR": 454.0,
+    "Ws": 12.58,
+    "Wd": 118.8,
+    "Patm": 950.8
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 21"
+  },
+  {
+   "fecha": "2028-08-29",
+   "hora": 16,
+   "corrida": "caso_20280829_1600",
+   "origen": "tiemporeal_20280829_1600_620bbdaf",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 48.4,
+    "total": 48.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.603,
+     "HR": 42.198,
+     "Patm": 960.853,
+     "SR": 315.616,
+     "Ws": 13.95,
+     "Wd": 109.247
+    },
+    "SIMA III": {
+     "T": 32.915,
+     "HR": 36.695,
+     "Patm": 945.735,
+     "SR": 455.493,
+     "Ws": 11.222,
+     "Wd": 93.95
+    },
+    "SIMA XII": {
+     "T": 33.327,
+     "HR": 38.464,
+     "Patm": 947.043,
+     "SR": 411.548,
+     "Ws": 10.589,
+     "Wd": 127.802
+    }
+   },
+   "fila": {
+    "T": 33.39,
+    "HR": 39.4,
+    "SR": 387.4,
+    "Ws": 11.48,
+    "Wd": 121.2,
+    "Patm": 950.6
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 22"
+  },
+  {
+   "fecha": "2028-09-29",
+   "hora": 16,
+   "corrida": "caso_20280929_1600",
+   "origen": "tiemporeal_20280929_1600_f1df6352",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 48.4,
+    "total": 48.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 30.483,
+     "HR": 49.237,
+     "Patm": 961.507,
+     "SR": 241.808,
+     "Ws": 12.584,
+     "Wd": 107.521
+    },
+    "SIMA III": {
+     "T": 29.795,
+     "HR": 43.638,
+     "Patm": 946.39,
+     "SR": 358.362,
+     "Ws": 10.009,
+     "Wd": 89.442
+    },
+    "SIMA XII": {
+     "T": 30.207,
+     "HR": 45.457,
+     "Patm": 947.697,
+     "SR": 321.66,
+     "Ws": 9.414,
+     "Wd": 128.941
+    }
+   },
+   "fila": {
+    "T": 30.27,
+    "HR": 46.4,
+    "SR": 301.6,
+    "Ws": 10.26,
+    "Wd": 121.2,
+    "Patm": 951.3
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 23"
+  },
+  {
+   "fecha": "2028-10-29",
+   "hora": 15,
+   "corrida": "caso_20281029_1500",
+   "origen": "tiemporeal_20281029_1500_daf1dc2f",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.9,
+    "total": 48.2
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 26.362,
+     "HR": 50.796,
+     "Patm": 964.054,
+     "SR": 280.032,
+     "Ws": 11.214,
+     "Wd": 97.765
+    },
+    "SIMA III": {
+     "T": 25.674,
+     "HR": 45.284,
+     "Patm": 948.937,
+     "SR": 401.804,
+     "Ws": 8.8,
+     "Wd": 75.854
+    },
+    "SIMA XII": {
+     "T": 26.085,
+     "HR": 47.079,
+     "Patm": 950.244,
+     "SR": 363.418,
+     "Ws": 8.245,
+     "Wd": 116.839
+    }
+   },
+   "fila": {
+    "T": 26.15,
+    "HR": 48.0,
+    "SR": 342.5,
+    "Ws": 9.04,
+    "Wd": 109.8,
+    "Patm": 953.8
+   },
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day",
+   "etiqueta": "Month 24"
+  },
+  {
+   "fecha": "2028-11-29",
+   "hora": 15,
+   "corrida": "caso_20281129_1500",
+   "origen": "tiemporeal_20281129_1500_c1670231",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 48.5,
+    "total": 48.8
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.484,
+     "HR": 47.497,
+     "Patm": 965.978,
+     "SR": 250.823,
+     "Ws": 10.319,
+     "Wd": 90.266
+    },
+    "SIMA III": {
+     "T": 21.796,
+     "HR": 42.193,
+     "Patm": 950.86,
+     "SR": 356.254,
+     "Ws": 8.015,
+     "Wd": 65.139
+    },
+    "SIMA XII": {
+     "T": 22.208,
+     "HR": 43.913,
+     "Patm": 952.168,
+     "SR": 323.008,
+     "Ws": 7.487,
+     "Wd": 106.096
+    }
+   },
+   "fila": {
+    "T": 22.27,
+    "HR": 44.8,
+    "SR": 304.9,
+    "Ws": 8.24,
+    "Wd": 100.0,
+    "Patm": 955.8
+   },
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day",
+   "etiqueta": "Month 25"
+  },
+  {
+   "fecha": "2028-12-29",
+   "hora": 16,
+   "corrida": "caso_20281229_1600",
+   "origen": "tiemporeal_20281229_1600_e69ec35e",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 47.8,
+    "total": 48.1
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 20.942,
+     "HR": 44.301,
+     "Patm": 965.946,
+     "SR": 184.195,
+     "Ws": 11.209,
+     "Wd": 89.266
+    },
+    "SIMA III": {
+     "T": 20.254,
+     "HR": 39.184,
+     "Patm": 950.828,
+     "SR": 265.756,
+     "Ws": 8.799,
+     "Wd": 66.271
+    },
+    "SIMA XII": {
+     "T": 20.665,
+     "HR": 40.838,
+     "Patm": 952.135,
+     "SR": 240.106,
+     "Ws": 8.245,
+     "Wd": 101.543
+    }
+   },
+   "fila": {
+    "T": 20.73,
+    "HR": 41.7,
+    "SR": 226.0,
+    "Ws": 9.03,
+    "Wd": 96.8,
+    "Patm": 955.7
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 26"
+  },
+  {
+   "fecha": "2029-01-29",
+   "hora": 16,
+   "corrida": "caso_20290129_1600",
+   "origen": "tiemporeal_20290129_1600_1ed66ce1",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.5,
+    "total": 47.8
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.371,
+     "HR": 40.584,
+     "Patm": 965.125,
+     "SR": 230.452,
+     "Ws": 12.721,
+     "Wd": 89.43
+    },
+    "SIMA III": {
+     "T": 21.683,
+     "HR": 35.698,
+     "Patm": 950.007,
+     "SR": 329.132,
+     "Ws": 10.138,
+     "Wd": 68.755
+    },
+    "SIMA XII": {
+     "T": 22.095,
+     "HR": 37.27,
+     "Patm": 951.315,
+     "SR": 298.116,
+     "Ws": 9.542,
+     "Wd": 99.694
+    }
+   },
+   "fila": {
+    "T": 22.16,
+    "HR": 38.1,
+    "SR": 281.1,
+    "Ws": 10.39,
+    "Wd": 95.7,
+    "Patm": 954.9
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 27"
+  },
+  {
+   "fecha": "2029-02-28",
+   "hora": 16,
+   "corrida": "caso_20290228_1600",
+   "origen": "tiemporeal_20290228_1600_e23a1312",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.3,
+    "total": 47.5
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 25.521,
+     "HR": 37.15,
+     "Patm": 963.33,
+     "SR": 286.319,
+     "Ws": 14.465,
+     "Wd": 91.702
+    },
+    "SIMA III": {
+     "T": 24.832,
+     "HR": 32.441,
+     "Patm": 948.213,
+     "SR": 405.92,
+     "Ws": 11.696,
+     "Wd": 73.594
+    },
+    "SIMA XII": {
+     "T": 25.244,
+     "HR": 33.95,
+     "Patm": 949.52,
+     "SR": 368.328,
+     "Ws": 11.053,
+     "Wd": 101.592
+    }
+   },
+   "fila": {
+    "T": 25.31,
+    "HR": 34.8,
+    "SR": 347.7,
+    "Ws": 11.96,
+    "Wd": 97.8,
+    "Patm": 953.1
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 28"
+  },
+  {
+   "fecha": "2029-03-29",
+   "hora": 17,
+   "corrida": "caso_20290329_1700",
+   "origen": "tiemporeal_20290329_1700_e2b73c8f",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.7,
+    "total": 47.9
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 28.662,
+     "HR": 36.222,
+     "Patm": 960.485,
+     "SR": 211.143,
+     "Ws": 15.401,
+     "Wd": 99.168
+    },
+    "SIMA III": {
+     "T": 27.974,
+     "HR": 31.467,
+     "Patm": 945.368,
+     "SR": 309.115,
+     "Ws": 12.532,
+     "Wd": 83.41
+    },
+    "SIMA XII": {
+     "T": 28.386,
+     "HR": 32.988,
+     "Patm": 946.675,
+     "SR": 278.266,
+     "Ws": 11.864,
+     "Wd": 111.799
+    }
+   },
+   "fila": {
+    "T": 28.45,
+    "HR": 33.8,
+    "SR": 261.4,
+    "Ws": 12.81,
+    "Wd": 107.2,
+    "Patm": 950.3
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 29"
+  },
+  {
+   "fecha": "2029-04-29",
+   "hora": 17,
+   "corrida": "caso_20290429_1700",
+   "origen": "tiemporeal_20290429_1700_d66d5da4",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.5,
+    "total": 47.8
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 31.31,
+     "HR": 39.396,
+     "Patm": 958.261,
+     "SR": 214.741,
+     "Ws": 15.359,
+     "Wd": 104.711
+    },
+    "SIMA III": {
+     "T": 30.622,
+     "HR": 34.295,
+     "Patm": 943.143,
+     "SR": 320.997,
+     "Ws": 12.488,
+     "Wd": 89.933
+    },
+    "SIMA XII": {
+     "T": 31.033,
+     "HR": 35.931,
+     "Patm": 944.451,
+     "SR": 287.431,
+     "Ws": 11.82,
+     "Wd": 119.64
+    }
+   },
+   "fila": {
+    "T": 31.1,
+    "HR": 36.8,
+    "SR": 269.2,
+    "Ws": 12.76,
+    "Wd": 114.3,
+    "Patm": 948.0
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 30"
+  },
+  {
+   "fecha": "2029-05-29",
+   "hora": 17,
+   "corrida": "caso_20290529_1700",
+   "origen": "tiemporeal_20290529_1700_e9f9641b",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 48.8,
+    "total": 49.0
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.241,
+     "HR": 41.65,
+     "Patm": 958.277,
+     "SR": 231.261,
+     "Ws": 15.305,
+     "Wd": 110.155
+    },
+    "SIMA III": {
+     "T": 32.553,
+     "HR": 36.277,
+     "Patm": 943.16,
+     "SR": 344.582,
+     "Ws": 12.434,
+     "Wd": 96.975
+    },
+    "SIMA XII": {
+     "T": 32.964,
+     "HR": 38.004,
+     "Patm": 944.467,
+     "SR": 308.86,
+     "Ws": 11.766,
+     "Wd": 126.263
+    }
+   },
+   "fila": {
+    "T": 33.03,
+    "HR": 38.9,
+    "SR": 289.4,
+    "Ws": 12.71,
+    "Wd": 120.5,
+    "Patm": 948.1
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 31"
+  },
+  {
+   "fecha": "2029-06-29",
+   "hora": 17,
+   "corrida": "caso_20290629_1700",
+   "origen": "tiemporeal_20290629_1700_92f2b3fa",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.3,
+    "total": 47.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.645,
+     "HR": 38.958,
+     "Patm": 959.882,
+     "SR": 262.047,
+     "Ws": 15.283,
+     "Wd": 113.17
+    },
+    "SIMA III": {
+     "T": 33.957,
+     "HR": 33.632,
+     "Patm": 944.764,
+     "SR": 381.002,
+     "Ws": 12.412,
+     "Wd": 100.958
+    },
+    "SIMA XII": {
+     "T": 34.368,
+     "HR": 35.336,
+     "Patm": 946.072,
+     "SR": 343.617,
+     "Ws": 11.743,
+     "Wd": 129.68
+    }
+   },
+   "fila": {
+    "T": 34.43,
+    "HR": 36.2,
+    "SR": 323.1,
+    "Ws": 12.69,
+    "Wd": 123.8,
+    "Patm": 949.7
+   },
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day",
+   "etiqueta": "Month 32"
+  },
+  {
+   "fecha": "2029-07-29",
+   "hora": 16,
+   "corrida": "caso_20290729_1600",
+   "origen": "tiemporeal_20290729_1600_0e6330fd",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 47.8,
+    "total": 48.0
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.99,
+     "HR": 37.383,
+     "Patm": 961.034,
+     "SR": 376.702,
+     "Ws": 15.172,
+     "Wd": 108.895
+    },
+    "SIMA III": {
+     "T": 34.301,
+     "HR": 32.088,
+     "Patm": 945.916,
+     "SR": 528.584,
+     "Ws": 12.313,
+     "Wd": 95.729
+    },
+    "SIMA XII": {
+     "T": 34.713,
+     "HR": 33.778,
+     "Patm": 947.224,
+     "SR": 480.881,
+     "Ws": 11.648,
+     "Wd": 124.232
+    }
+   },
+   "fila": {
+    "T": 34.78,
+    "HR": 34.7,
+    "SR": 454.7,
+    "Ws": 12.59,
+    "Wd": 118.8,
+    "Patm": 950.8
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 33"
+  },
+  {
+   "fecha": "2029-08-29",
+   "hora": 16,
+   "corrida": "caso_20290829_1600",
+   "origen": "tiemporeal_20290829_1600_8efc9378",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 48.5,
+    "total": 48.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.703,
+     "HR": 41.694,
+     "Patm": 960.854,
+     "SR": 317.215,
+     "Ws": 13.961,
+     "Wd": 109.248
+    },
+    "SIMA III": {
+     "T": 33.015,
+     "HR": 36.214,
+     "Patm": 945.736,
+     "SR": 457.673,
+     "Ws": 11.231,
+     "Wd": 93.971
+    },
+    "SIMA XII": {
+     "T": 33.426,
+     "HR": 37.974,
+     "Patm": 947.044,
+     "SR": 413.545,
+     "Ws": 10.598,
+     "Wd": 127.774
+    }
+   },
+   "fila": {
+    "T": 33.49,
+    "HR": 38.9,
+    "SR": 389.3,
+    "Ws": 11.49,
+    "Wd": 121.1,
+    "Patm": 950.6
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 34"
+  },
+  {
+   "fecha": "2029-09-29",
+   "hora": 16,
+   "corrida": "caso_20290929_1600",
+   "origen": "tiemporeal_20290929_1600_e54c6179",
+   "segundos": {
+    "rom_3d": 0.2,
+    "rom_local": 49.9,
+    "total": 50.2
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 30.596,
+     "HR": 48.748,
+     "Patm": 961.495,
+     "SR": 243.615,
+     "Ws": 12.594,
+     "Wd": 107.551
+    },
+    "SIMA III": {
+     "T": 29.908,
+     "HR": 43.155,
+     "Patm": 946.378,
+     "SR": 361.014,
+     "Ws": 10.018,
+     "Wd": 89.494
+    },
+    "SIMA XII": {
+     "T": 30.32,
+     "HR": 44.97,
+     "Patm": 947.685,
+     "SR": 324.047,
+     "Ws": 9.422,
+     "Wd": 128.959
+    }
+   },
+   "fila": {
+    "T": 30.38,
+    "HR": 45.9,
+    "SR": 303.8,
+    "Ws": 10.27,
+    "Wd": 121.2,
+    "Patm": 951.3
+   },
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day",
+   "etiqueta": "Month 35"
+  },
+  {
+   "fecha": "2029-10-29",
+   "hora": 15,
+   "corrida": "caso_20291029_1500",
+   "origen": "tiemporeal_20291029_1500_01626699",
+   "segundos": {
+    "rom_3d": 0.5,
+    "rom_local": 48.7,
+    "total": 49.2
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 26.478,
+     "HR": 50.37,
+     "Patm": 964.036,
+     "SR": 281.639,
+     "Ws": 11.224,
+     "Wd": 97.814
+    },
+    "SIMA III": {
+     "T": 25.79,
+     "HR": 44.861,
+     "Patm": 948.918,
+     "SR": 404.146,
+     "Ws": 8.808,
+     "Wd": 75.931
+    },
+    "SIMA XII": {
+     "T": 26.202,
+     "HR": 46.654,
+     "Patm": 950.226,
+     "SR": 365.529,
+     "Ws": 8.253,
+     "Wd": 116.896
+    }
+   },
+   "fila": {
+    "T": 26.26,
+    "HR": 47.6,
+    "SR": 344.4,
+    "Ws": 9.04,
+    "Wd": 109.8,
+    "Patm": 953.8
+   },
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day",
+   "etiqueta": "Month 36"
+  },
+  {
+   "fecha": "2029-11-29",
+   "hora": 15,
+   "corrida": "caso_20291129_1500",
+   "origen": "tiemporeal_20291129_1500_53949cd4",
+   "segundos": {
+    "rom_3d": 21.5,
+    "rom_local": 116.9,
+    "total": 139.2
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.591,
+     "HR": 47.1,
+     "Patm": 965.968,
+     "SR": 251.447,
+     "Ws": 10.323,
+     "Wd": 90.327
+    },
+    "SIMA III": {
+     "T": 21.902,
+     "HR": 41.804,
+     "Patm": 950.85,
+     "SR": 357.159,
+     "Ws": 8.018,
+     "Wd": 65.218
+    },
+    "SIMA XII": {
+     "T": 22.314,
+     "HR": 43.521,
+     "Patm": 952.158,
+     "SR": 323.825,
+     "Ws": 7.49,
+     "Wd": 106.201
+    }
+   },
+   "fila": {
+    "T": 22.38,
+    "HR": 44.4,
+    "SR": 305.6,
+    "Ws": 8.25,
+    "Wd": 100.1,
+    "Patm": 955.7
+   },
+   "etiqueta": "Month 37",
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2029-12-29",
+   "hora": 16,
+   "corrida": "caso_20291229_1600",
+   "origen": "tiemporeal_20291229_1600_861ec664",
+   "segundos": {
+    "rom_3d": 1.8,
+    "rom_local": 63.5,
+    "total": 65.4
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 21.025,
+     "HR": 43.915,
+     "Patm": 965.948,
+     "SR": 183.331,
+     "Ws": 11.202,
+     "Wd": 89.282
+    },
+    "SIMA III": {
+     "T": 20.336,
+     "HR": 38.81,
+     "Patm": 950.83,
+     "SR": 264.522,
+     "Ws": 8.792,
+     "Wd": 66.278
+    },
+    "SIMA XII": {
+     "T": 20.748,
+     "HR": 40.459,
+     "Patm": 952.138,
+     "SR": 238.987,
+     "Ws": 8.238,
+     "Wd": 101.586
+    }
+   },
+   "fila": {
+    "T": 20.81,
+    "HR": 41.3,
+    "SR": 225.0,
+    "Ws": 9.03,
+    "Wd": 96.8,
+    "Patm": 955.7
+   },
+   "etiqueta": "Month 38",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-01-29",
+   "hora": 16,
+   "corrida": "caso_20300129_1600",
+   "origen": "tiemporeal_20300129_1600_d60d7d23",
+   "segundos": {
+    "rom_3d": 1.0,
+    "rom_local": 64.8,
+    "total": 65.9
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.433,
+     "HR": 40.218,
+     "Patm": 965.135,
+     "SR": 230.382,
+     "Ws": 12.706,
+     "Wd": 89.417
+    },
+    "SIMA III": {
+     "T": 21.745,
+     "HR": 35.347,
+     "Patm": 950.018,
+     "SR": 329.061,
+     "Ws": 10.125,
+     "Wd": 68.719
+    },
+    "SIMA XII": {
+     "T": 22.156,
+     "HR": 36.914,
+     "Patm": 951.325,
+     "SR": 298.046,
+     "Ws": 9.529,
+     "Wd": 99.688
+    }
+   },
+   "fila": {
+    "T": 22.22,
+    "HR": 37.7,
+    "SR": 281.0,
+    "Ws": 10.38,
+    "Wd": 95.7,
+    "Patm": 954.9
+   },
+   "etiqueta": "Month 39",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-02-28",
+   "hora": 16,
+   "corrida": "caso_20300228_1600",
+   "origen": "tiemporeal_20300228_1600_d8371eba",
+   "segundos": {
+    "rom_3d": 1.0,
+    "rom_local": 57.2,
+    "total": 58.4
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 25.576,
+     "HR": 36.786,
+     "Patm": 963.349,
+     "SR": 286.315,
+     "Ws": 14.453,
+     "Wd": 91.679
+    },
+    "SIMA III": {
+     "T": 24.887,
+     "HR": 32.097,
+     "Patm": 948.231,
+     "SR": 405.916,
+     "Ws": 11.686,
+     "Wd": 73.555
+    },
+    "SIMA XII": {
+     "T": 25.299,
+     "HR": 33.598,
+     "Patm": 949.539,
+     "SR": 368.324,
+     "Ws": 11.043,
+     "Wd": 101.567
+    }
+   },
+   "fila": {
+    "T": 25.36,
+    "HR": 34.4,
+    "SR": 347.7,
+    "Ws": 11.95,
+    "Wd": 97.8,
+    "Patm": 953.1
+   },
+   "etiqueta": "Month 40",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-03-29",
+   "hora": 17,
+   "corrida": "caso_20300329_1700",
+   "origen": "tiemporeal_20300329_1700_9c7f59dd",
+   "segundos": {
+    "rom_3d": 1.1,
+    "rom_local": 53.7,
+    "total": 54.9
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 28.721,
+     "HR": 35.823,
+     "Patm": 960.508,
+     "SR": 211.255,
+     "Ws": 15.399,
+     "Wd": 99.134
+    },
+    "SIMA III": {
+     "T": 28.033,
+     "HR": 31.093,
+     "Patm": 945.39,
+     "SR": 309.232,
+     "Ws": 12.531,
+     "Wd": 83.37
+    },
+    "SIMA XII": {
+     "T": 28.444,
+     "HR": 32.605,
+     "Patm": 946.698,
+     "SR": 278.383,
+     "Ws": 11.862,
+     "Wd": 111.75
+    }
+   },
+   "fila": {
+    "T": 28.51,
+    "HR": 33.4,
+    "SR": 261.5,
+    "Ws": 12.8,
+    "Wd": 107.1,
+    "Patm": 950.3
+   },
+   "etiqueta": "Month 41",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-04-29",
+   "hora": 17,
+   "corrida": "caso_20300429_1700",
+   "origen": "tiemporeal_20300429_1700_651a590f",
+   "segundos": {
+    "rom_3d": 0.7,
+    "rom_local": 53.5,
+    "total": 54.3
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 31.375,
+     "HR": 38.948,
+     "Patm": 958.271,
+     "SR": 214.815,
+     "Ws": 15.36,
+     "Wd": 104.662
+    },
+    "SIMA III": {
+     "T": 30.686,
+     "HR": 33.873,
+     "Patm": 943.153,
+     "SR": 321.072,
+     "Ws": 12.489,
+     "Wd": 89.873
+    },
+    "SIMA XII": {
+     "T": 31.098,
+     "HR": 35.5,
+     "Patm": 944.461,
+     "SR": 287.506,
+     "Ws": 11.821,
+     "Wd": 119.575
+    }
+   },
+   "fila": {
+    "T": 31.16,
+    "HR": 36.4,
+    "SR": 269.2,
+    "Ws": 12.76,
+    "Wd": 114.2,
+    "Patm": 948.1
+   },
+   "etiqueta": "Month 42",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-05-29",
+   "hora": 17,
+   "corrida": "caso_20300529_1700",
+   "origen": "tiemporeal_20300529_1700_a79bd2d6",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 57.9,
+    "total": 58.3
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.31,
+     "HR": 41.215,
+     "Patm": 958.268,
+     "SR": 231.141,
+     "Ws": 15.305,
+     "Wd": 110.12
+    },
+    "SIMA III": {
+     "T": 32.622,
+     "HR": 35.863,
+     "Patm": 943.151,
+     "SR": 344.456,
+     "Ws": 12.434,
+     "Wd": 96.927
+    },
+    "SIMA XII": {
+     "T": 33.033,
+     "HR": 37.582,
+     "Patm": 944.458,
+     "SR": 308.735,
+     "Ws": 11.765,
+     "Wd": 126.225
+    }
+   },
+   "fila": {
+    "T": 33.1,
+    "HR": 38.5,
+    "SR": 289.2,
+    "Ws": 12.71,
+    "Wd": 120.5,
+    "Patm": 948.0
+   },
+   "etiqueta": "Month 43",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-06-29",
+   "hora": 17,
+   "corrida": "caso_20300629_1700",
+   "origen": "tiemporeal_20300629_1700_dbba88ce",
+   "segundos": {
+    "rom_3d": 0.6,
+    "rom_local": 56.1,
+    "total": 56.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.72,
+     "HR": 38.553,
+     "Patm": 959.869,
+     "SR": 261.914,
+     "Ws": 15.285,
+     "Wd": 113.156
+    },
+    "SIMA III": {
+     "T": 34.032,
+     "HR": 33.25,
+     "Patm": 944.752,
+     "SR": 380.869,
+     "Ws": 12.414,
+     "Wd": 100.943
+    },
+    "SIMA XII": {
+     "T": 34.443,
+     "HR": 34.946,
+     "Patm": 946.059,
+     "SR": 343.483,
+     "Ws": 11.745,
+     "Wd": 129.659
+    }
+   },
+   "fila": {
+    "T": 34.51,
+    "HR": 35.9,
+    "SR": 323.0,
+    "Ws": 12.69,
+    "Wd": 123.8,
+    "Patm": 949.6
+   },
+   "etiqueta": "Month 44",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-07-29",
+   "hora": 16,
+   "corrida": "caso_20300729_1600",
+   "origen": "tiemporeal_20300729_1600_3534fc09",
+   "segundos": {
+    "rom_3d": 1.1,
+    "rom_local": 55.4,
+    "total": 56.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 35.075,
+     "HR": 36.944,
+     "Patm": 961.032,
+     "SR": 376.843,
+     "Ws": 15.179,
+     "Wd": 108.891
+    },
+    "SIMA III": {
+     "T": 34.387,
+     "HR": 31.678,
+     "Patm": 945.915,
+     "SR": 528.725,
+     "Ws": 12.32,
+     "Wd": 95.736
+    },
+    "SIMA XII": {
+     "T": 34.798,
+     "HR": 33.357,
+     "Patm": 947.222,
+     "SR": 481.022,
+     "Ws": 11.654,
+     "Wd": 124.21
+    }
+   },
+   "fila": {
+    "T": 34.86,
+    "HR": 34.3,
+    "SR": 454.8,
+    "Ws": 12.59,
+    "Wd": 118.7,
+    "Patm": 950.8
+   },
+   "etiqueta": "Month 45",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-08-29",
+   "hora": 16,
+   "corrida": "caso_20300829_1600",
+   "origen": "tiemporeal_20300829_1600_4f07ed74",
+   "segundos": {
+    "rom_3d": 0.5,
+    "rom_local": 61.6,
+    "total": 62.1
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.803,
+     "HR": 41.192,
+     "Patm": 960.855,
+     "SR": 317.506,
+     "Ws": 13.972,
+     "Wd": 109.249
+    },
+    "SIMA III": {
+     "T": 33.115,
+     "HR": 35.735,
+     "Patm": 945.737,
+     "SR": 457.965,
+     "Ws": 11.241,
+     "Wd": 93.992
+    },
+    "SIMA XII": {
+     "T": 33.526,
+     "HR": 37.487,
+     "Patm": 947.045,
+     "SR": 413.837,
+     "Ws": 10.607,
+     "Wd": 127.746
+    }
+   },
+   "fila": {
+    "T": 33.59,
+    "HR": 38.4,
+    "SR": 389.6,
+    "Ws": 11.5,
+    "Wd": 121.1,
+    "Patm": 950.6
+   },
+   "etiqueta": "Month 46",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-09-29",
+   "hora": 16,
+   "corrida": "caso_20300929_1600",
+   "origen": "tiemporeal_20300929_1600_66777f3c",
+   "segundos": {
+    "rom_3d": 0.9,
+    "rom_local": 60.5,
+    "total": 61.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 30.709,
+     "HR": 48.258,
+     "Patm": 961.483,
+     "SR": 243.685,
+     "Ws": 12.604,
+     "Wd": 107.581
+    },
+    "SIMA III": {
+     "T": 30.021,
+     "HR": 42.672,
+     "Patm": 946.366,
+     "SR": 361.091,
+     "Ws": 10.026,
+     "Wd": 89.546
+    },
+    "SIMA XII": {
+     "T": 30.432,
+     "HR": 44.484,
+     "Patm": 947.673,
+     "SR": 324.123,
+     "Ws": 9.431,
+     "Wd": 128.976
+    }
+   },
+   "fila": {
+    "T": 30.5,
+    "HR": 45.4,
+    "SR": 303.9,
+    "Ws": 10.28,
+    "Wd": 121.3,
+    "Patm": 951.3
+   },
+   "etiqueta": "Month 47",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-10-29",
+   "hora": 15,
+   "corrida": "caso_20301029_1500",
+   "origen": "tiemporeal_20301029_1500_246aaf5b",
+   "segundos": {
+    "rom_3d": 0.9,
+    "rom_local": 56.7,
+    "total": 57.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 26.594,
+     "HR": 49.943,
+     "Patm": 964.018,
+     "SR": 281.565,
+     "Ws": 11.233,
+     "Wd": 97.864
+    },
+    "SIMA III": {
+     "T": 25.906,
+     "HR": 44.437,
+     "Patm": 948.9,
+     "SR": 404.075,
+     "Ws": 8.816,
+     "Wd": 76.007
+    },
+    "SIMA XII": {
+     "T": 26.318,
+     "HR": 46.228,
+     "Patm": 950.208,
+     "SR": 365.458,
+     "Ws": 8.261,
+     "Wd": 116.952
+    }
+   },
+   "fila": {
+    "T": 26.38,
+    "HR": 47.2,
+    "SR": 344.4,
+    "Ws": 9.05,
+    "Wd": 109.9,
+    "Patm": 953.8
+   },
+   "etiqueta": "Month 48",
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-11-29",
+   "hora": 15,
+   "corrida": "caso_20301129_1500",
+   "origen": "tiemporeal_20301129_1500_a78b776c",
+   "segundos": {
+    "rom_3d": 1.0,
+    "rom_local": 55.6,
+    "total": 56.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.697,
+     "HR": 46.704,
+     "Patm": 965.958,
+     "SR": 251.4,
+     "Ws": 10.327,
+     "Wd": 90.387
+    },
+    "SIMA III": {
+     "T": 22.009,
+     "HR": 41.415,
+     "Patm": 950.84,
+     "SR": 357.109,
+     "Ws": 8.021,
+     "Wd": 65.298
+    },
+    "SIMA XII": {
+     "T": 22.421,
+     "HR": 43.128,
+     "Patm": 952.148,
+     "SR": 323.775,
+     "Ws": 7.493,
+     "Wd": 106.306
+    }
+   },
+   "fila": {
+    "T": 22.48,
+    "HR": 44.0,
+    "SR": 305.6,
+    "Ws": 8.25,
+    "Wd": 100.2,
+    "Patm": 955.7
+   },
+   "etiqueta": "Month 49",
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2030-12-29",
+   "hora": 16,
+   "corrida": "caso_20301229_1600",
+   "origen": "tiemporeal_20301229_1600_ca06cf03",
+   "segundos": {
+    "rom_3d": 0.8,
+    "rom_local": 53.9,
+    "total": 54.8
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 21.108,
+     "HR": 43.53,
+     "Patm": 965.95,
+     "SR": 183.294,
+     "Ws": 11.194,
+     "Wd": 89.299
+    },
+    "SIMA III": {
+     "T": 20.419,
+     "HR": 38.437,
+     "Patm": 950.832,
+     "SR": 264.483,
+     "Ws": 8.785,
+     "Wd": 66.285
+    },
+    "SIMA XII": {
+     "T": 20.831,
+     "HR": 40.081,
+     "Patm": 952.14,
+     "SR": 238.948,
+     "Ws": 8.232,
+     "Wd": 101.63
+    }
+   },
+   "fila": {
+    "T": 20.89,
+    "HR": 40.9,
+    "SR": 225.0,
+    "Ws": 9.02,
+    "Wd": 96.9,
+    "Patm": 955.7
+   },
+   "etiqueta": "Month 50",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-01-29",
+   "hora": 16,
+   "corrida": "caso_20310129_1600",
+   "origen": "tiemporeal_20310129_1600_59312cc2",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 55.2,
+    "total": 55.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 22.495,
+     "HR": 39.852,
+     "Patm": 965.145,
+     "SR": 230.312,
+     "Ws": 12.691,
+     "Wd": 89.404
+    },
+    "SIMA III": {
+     "T": 21.807,
+     "HR": 34.998,
+     "Patm": 950.028,
+     "SR": 328.991,
+     "Ws": 10.112,
+     "Wd": 68.683
+    },
+    "SIMA XII": {
+     "T": 22.218,
+     "HR": 36.558,
+     "Patm": 951.335,
+     "SR": 297.976,
+     "Ws": 9.516,
+     "Wd": 99.683
+    }
+   },
+   "fila": {
+    "T": 22.28,
+    "HR": 37.4,
+    "SR": 281.0,
+    "Ws": 10.36,
+    "Wd": 95.7,
+    "Patm": 954.9
+   },
+   "etiqueta": "Month 51",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-02-28",
+   "hora": 16,
+   "corrida": "caso_20310228_1600",
+   "origen": "tiemporeal_20310228_1600_7461232e",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 54.8,
+    "total": 55.2
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 25.63,
+     "HR": 36.423,
+     "Patm": 963.368,
+     "SR": 286.31,
+     "Ws": 14.441,
+     "Wd": 91.657
+    },
+    "SIMA III": {
+     "T": 24.942,
+     "HR": 31.754,
+     "Patm": 948.25,
+     "SR": 405.912,
+     "Ws": 11.675,
+     "Wd": 73.516
+    },
+    "SIMA XII": {
+     "T": 25.354,
+     "HR": 33.249,
+     "Patm": 949.557,
+     "SR": 368.319,
+     "Ws": 11.032,
+     "Wd": 101.543
+    }
+   },
+   "fila": {
+    "T": 25.42,
+    "HR": 34.0,
+    "SR": 347.7,
+    "Ws": 11.94,
+    "Wd": 97.8,
+    "Patm": 953.1
+   },
+   "etiqueta": "Month 52",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-03-29",
+   "hora": 17,
+   "corrida": "caso_20310329_1700",
+   "origen": "tiemporeal_20310329_1700_d2fd3bc1",
+   "segundos": {
+    "rom_3d": 0.5,
+    "rom_local": 55.7,
+    "total": 56.3
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 28.779,
+     "HR": 35.425,
+     "Patm": 960.53,
+     "SR": 211.367,
+     "Ws": 15.397,
+     "Wd": 99.1
+    },
+    "SIMA III": {
+     "T": 28.091,
+     "HR": 30.721,
+     "Patm": 945.412,
+     "SR": 309.349,
+     "Ws": 12.529,
+     "Wd": 83.329
+    },
+    "SIMA XII": {
+     "T": 28.502,
+     "HR": 32.224,
+     "Patm": 946.72,
+     "SR": 278.499,
+     "Ws": 11.861,
+     "Wd": 111.702
+    }
+   },
+   "fila": {
+    "T": 28.57,
+    "HR": 33.0,
+    "SR": 261.6,
+    "Ws": 12.8,
+    "Wd": 107.1,
+    "Patm": 950.3
+   },
+   "etiqueta": "Month 53",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-04-29",
+   "hora": 17,
+   "corrida": "caso_20310429_1700",
+   "origen": "tiemporeal_20310429_1700_b09b1cb0",
+   "segundos": {
+    "rom_3d": 1.0,
+    "rom_local": 55.4,
+    "total": 56.5
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 31.439,
+     "HR": 38.503,
+     "Patm": 958.281,
+     "SR": 214.89,
+     "Ws": 15.361,
+     "Wd": 104.613
+    },
+    "SIMA III": {
+     "T": 30.751,
+     "HR": 33.453,
+     "Patm": 943.163,
+     "SR": 321.148,
+     "Ws": 12.491,
+     "Wd": 89.813
+    },
+    "SIMA XII": {
+     "T": 31.163,
+     "HR": 35.071,
+     "Patm": 944.471,
+     "SR": 287.582,
+     "Ws": 11.822,
+     "Wd": 119.51
+    }
+   },
+   "fila": {
+    "T": 31.23,
+    "HR": 35.9,
+    "SR": 269.3,
+    "Ws": 12.77,
+    "Wd": 114.2,
+    "Patm": 948.1
+   },
+   "etiqueta": "Month 54",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-05-29",
+   "hora": 17,
+   "corrida": "caso_20310529_1700",
+   "origen": "tiemporeal_20310529_1700_c47a8fd2",
+   "segundos": {
+    "rom_3d": 0.5,
+    "rom_local": 55.0,
+    "total": 55.6
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.378,
+     "HR": 40.78,
+     "Patm": 958.259,
+     "SR": 231.022,
+     "Ws": 15.304,
+     "Wd": 110.085
+    },
+    "SIMA III": {
+     "T": 32.69,
+     "HR": 35.451,
+     "Patm": 943.142,
+     "SR": 344.331,
+     "Ws": 12.434,
+     "Wd": 96.88
+    },
+    "SIMA XII": {
+     "T": 33.102,
+     "HR": 37.162,
+     "Patm": 944.449,
+     "SR": 308.611,
+     "Ws": 11.765,
+     "Wd": 126.186
+    }
+   },
+   "fila": {
+    "T": 33.16,
+    "HR": 38.1,
+    "SR": 289.1,
+    "Ws": 12.71,
+    "Wd": 120.5,
+    "Patm": 948.0
+   },
+   "etiqueta": "Month 55",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-06-29",
+   "hora": 17,
+   "corrida": "caso_20310629_1700",
+   "origen": "tiemporeal_20310629_1700_f9ade11e",
+   "segundos": {
+    "rom_3d": 1.1,
+    "rom_local": 55.6,
+    "total": 56.8
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 34.795,
+     "HR": 38.149,
+     "Patm": 959.857,
+     "SR": 261.78,
+     "Ws": 15.287,
+     "Wd": 113.141
+    },
+    "SIMA III": {
+     "T": 34.106,
+     "HR": 32.871,
+     "Patm": 944.739,
+     "SR": 380.733,
+     "Ws": 12.415,
+     "Wd": 100.927
+    },
+    "SIMA XII": {
+     "T": 34.518,
+     "HR": 34.558,
+     "Patm": 946.047,
+     "SR": 343.348,
+     "Ws": 11.746,
+     "Wd": 129.637
+    }
+   },
+   "fila": {
+    "T": 34.58,
+    "HR": 35.5,
+    "SR": 322.8,
+    "Ws": 12.69,
+    "Wd": 123.8,
+    "Patm": 949.6
+   },
+   "etiqueta": "Month 56",
+   "fuente": "temporal forecast at 17:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-07-29",
+   "hora": 16,
+   "corrida": "caso_20310729_1600",
+   "origen": "tiemporeal_20310729_1600_2219db48",
+   "segundos": {
+    "rom_3d": 1.1,
+    "rom_local": 55.3,
+    "total": 56.5
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 35.16,
+     "HR": 36.507,
+     "Patm": 961.031,
+     "SR": 376.981,
+     "Ws": 15.186,
+     "Wd": 108.888
+    },
+    "SIMA III": {
+     "T": 34.472,
+     "HR": 31.27,
+     "Patm": 945.913,
+     "SR": 528.863,
+     "Ws": 12.326,
+     "Wd": 95.744
+    },
+    "SIMA XII": {
+     "T": 34.884,
+     "HR": 32.939,
+     "Patm": 947.221,
+     "SR": 481.16,
+     "Ws": 11.66,
+     "Wd": 124.189
+    }
+   },
+   "fila": {
+    "T": 34.95,
+    "HR": 33.8,
+    "SR": 455.0,
+    "Ws": 12.6,
+    "Wd": 118.7,
+    "Patm": 950.8
+   },
+   "etiqueta": "Month 57",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-08-29",
+   "hora": 16,
+   "corrida": "caso_20310829_1600",
+   "origen": "tiemporeal_20310829_1600_45bbb631",
+   "segundos": {
+    "rom_3d": 0.3,
+    "rom_local": 55.0,
+    "total": 55.5
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 33.902,
+     "HR": 40.692,
+     "Patm": 960.856,
+     "SR": 317.797,
+     "Ws": 13.983,
+     "Wd": 109.25
+    },
+    "SIMA III": {
+     "T": 33.214,
+     "HR": 35.258,
+     "Patm": 945.738,
+     "SR": 458.258,
+     "Ws": 11.251,
+     "Wd": 94.013
+    },
+    "SIMA XII": {
+     "T": 33.626,
+     "HR": 37.001,
+     "Patm": 947.046,
+     "SR": 414.13,
+     "Ws": 10.617,
+     "Wd": 127.719
+    }
+   },
+   "fila": {
+    "T": 33.69,
+    "HR": 37.9,
+    "SR": 389.9,
+    "Ws": 11.51,
+    "Wd": 121.1,
+    "Patm": 950.6
+   },
+   "etiqueta": "Month 58",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-09-29",
+   "hora": 16,
+   "corrida": "caso_20310929_1600",
+   "origen": "tiemporeal_20310929_1600_4a0e8942",
+   "segundos": {
+    "rom_3d": 0.8,
+    "rom_local": 56.9,
+    "total": 57.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 30.822,
+     "HR": 47.767,
+     "Patm": 961.471,
+     "SR": 243.756,
+     "Ws": 12.614,
+     "Wd": 107.61
+    },
+    "SIMA III": {
+     "T": 30.133,
+     "HR": 42.191,
+     "Patm": 946.354,
+     "SR": 361.169,
+     "Ws": 10.035,
+     "Wd": 89.598
+    },
+    "SIMA XII": {
+     "T": 30.545,
+     "HR": 43.999,
+     "Patm": 947.661,
+     "SR": 324.201,
+     "Ws": 9.439,
+     "Wd": 128.994
+    }
+   },
+   "fila": {
+    "T": 30.61,
+    "HR": 44.9,
+    "SR": 304.0,
+    "Ws": 10.29,
+    "Wd": 121.3,
+    "Patm": 951.3
+   },
+   "etiqueta": "Month 59",
+   "fuente": "temporal forecast at 16:00, the warmest expected hour of the day"
+  },
+  {
+   "fecha": "2031-10-29",
+   "hora": 15,
+   "corrida": "caso_20311029_1500",
+   "origen": "tiemporeal_20311029_1500_73b41849",
+   "segundos": {
+    "rom_3d": 1.2,
+    "rom_local": 56.4,
+    "total": 57.7
+   },
+   "estaciones": {
+    "SIMA I": {
+     "T": 26.711,
+     "HR": 49.516,
+     "Patm": 963.999,
+     "SR": 281.491,
+     "Ws": 11.243,
+     "Wd": 97.914
+    },
+    "SIMA III": {
+     "T": 26.023,
+     "HR": 44.014,
+     "Patm": 948.882,
+     "SR": 404.005,
+     "Ws": 8.825,
+     "Wd": 76.084
+    },
+    "SIMA XII": {
+     "T": 26.434,
+     "HR": 45.802,
+     "Patm": 950.189,
+     "SR": 365.387,
+     "Ws": 8.269,
+     "Wd": 117.008
+    }
+   },
+   "fila": {
+    "T": 26.5,
+    "HR": 46.7,
+    "SR": 344.3,
+    "Ws": 9.06,
+    "Wd": 109.9,
+    "Patm": 953.8
+   },
+   "etiqueta": "Month 60",
+   "fuente": "temporal forecast at 15:00, the warmest expected hour of the day"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ClimaTec</title>
+  <link rel="icon" href="data:,">
+  <meta name="description" content="Visor 3D interactivo del gemelo digital del Distrito Tec, Tecnológico de Monterrey.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/visor.css?v=20261111a">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+
+<body data-cielo="ninguno" data-calles="tec" data-edificios="tec">
+  <header class="encabezado">
+    <a class="logo logo-climatec" href="ClimaTec_about.html"><img src="assets/logos/climatec.png" alt="ClimaTec"></a>
+    <nav class="pestanas" aria-label="Secciones">
+      <a class="pestana" href="ClimaTec_index.html" aria-current="page">Tec de Monterrey</a>
+      <a class="pestana" href="ClimaTec_about.html">About</a>
+      <a class="pestana" href="ClimaTec_historical.html">Historical</a>
+      <a class="pestana" href="ClimaTec_realtime.html">Real-Time</a>
+      <a class="pestana" href="ClimaTec_prediction.html">Prediction</a>
+    </nav>
+    <a class="logo logo-tec" href="https://tec.mx/es" target="_blank" rel="noopener"><img src="assets/logos/tec_monterrey.png"
+         alt="Tecnológico de Monterrey · Escuela de Ingeniería y Ciencias"></a>
+  </header>
+
+  <main class="visor" id="visor">
+    <canvas id="lienzo" aria-label="Modelo 3D del Distrito Tec"></canvas>
+
+    <nav class="herramientas" aria-label="Viewer controls">
+      <button type="button" data-accion="acercar" title="Zoom in (+)" aria-label="Zoom in">
+        <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+      </button>
+      <button type="button" data-accion="alejar" title="Zoom out (−)" aria-label="Zoom out">
+        <svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg>
+      </button>
+      <span class="separador"></span>
+      <button type="button" data-accion="inicio" title="Home view (H)" aria-label="Home view">
+        <svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-5h4v5"/></svg>
+      </button>
+      <button type="button" data-accion="superior" title="Top view (T)" aria-label="Top view">
+        <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M12 8v8M8 12h8"/></svg>
+      </button>
+      <button type="button" data-accion="recorrido" title="Walk mode (P)" aria-label="Walk mode" aria-pressed="false">
+        <svg viewBox="0 0 24 24"><circle cx="13" cy="4.5" r="1.8"/><path d="M10 21l2-6 3 3v3"/><path d="M8 12l3-4.5 4 1.5 2 3"/><path d="M12 15l-1-4.5"/></svg>
+      </button>
+    </nav>
+
+    <button type="button" class="brujula" id="brujula" title="Orient to north" aria-label="Orient to north">
+      <svg viewBox="0 0 48 48" id="aguja">
+        <path class="aguja-norte" d="M24 5l6 19h-12z"/>
+        <path class="aguja-sur" d="M24 43l-6-19h12z"/>
+        <text x="24" y="17.5" text-anchor="middle">N</text>
+      </svg>
+    </button>
+
+    <section class="coordenadas" id="coordenadas" aria-live="polite">
+      <div class="coord-fila" id="coord-cursor">
+        <span class="coord-etiqueta">Cursor</span>
+        <span class="coord-valor" id="coord-cursor-valor">Move the cursor over the model</span>
+      </div>
+      <div class="coord-fila coord-punto" id="coord-punto" hidden>
+        <span class="coord-etiqueta">Point</span>
+        <span class="coord-valor" id="coord-punto-valor"></span>
+        <button type="button" class="coord-copiar" id="coord-copiar" title="Copy coordinates">Copy</button>
+      </div>
+    </section>
+
+    <div class="carga" id="carga" role="status">
+      <div class="carga-tarjeta">
+        <img src="assets/logos/climatec.png" alt="" class="carga-logo">
+        <p class="carga-texto" id="carga-texto">Loading…</p>
+        <div class="carga-barra"><span id="carga-progreso"></span></div>
+        <p class="carga-detalle" id="carga-detalle"></p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    (() => {
+      const ajustar = () => document.documentElement.style.setProperty('--alto-visor',
+        `${Math.max(0, innerHeight - document.querySelector('.encabezado').getBoundingClientRect().height)}px`);
+      ajustar();
+      addEventListener('resize', ajustar);
+      new ResizeObserver(ajustar).observe(document.querySelector('.encabezado'));
+    })();
+  </script>
+  <script type="module" src="js/visor.js?v=20261110a"></script>
+
+  <script type="module">
+    import { listo } from './js/visor.js?v=20261110a';
+    import { crearCielo, cieloEnTiempoReal } from './js/cielo.js?v=20261030a';
+    const { escena, nivelSuelo, pedirRender } = await listo;
+    cieloEnTiempoReal(crearCielo(escena, nivelSuelo), pedirRender);
+  </script>
+</body>
+</html>
